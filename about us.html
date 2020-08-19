@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 20%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #474e5d;
+  color: white;
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #3B69AC;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="about-section">
+  <h1>About Us</h1>
+  <p></p>
+  <p>Where there is a will , there is a way.</p>
+</div>
+
+<h2 style="text-align:center">EduHub Team</h2>
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <img src="images/suneo_aman.png" alt="Aman" height="300" style="width:100%">
+      <div class="container">
+        <h2>Aman Saxena</h2>
+        <p class="title">Full Stack Web Developer</p>
+        <p>.......</p>
+	<a href="aman.saxena_cs18@gla.ac.in"><p>aman.saxena_cs18@gla.ac.in</p></a>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="images/gian_akshat.png" alt="Akshat" height="300" style="width:100%">
+      <div class="container">
+        <h2>Akshat Sinha</h2>
+        <p class="title">Designer and Front End Developer</p>
+        <p>.......</p>
+	<a href="akshat.sinha_cs18@gla.ac.in"><p>akshat.sinha_cs18@gla.ac.in</p></a>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="images/doremon_akarshit.png" alt="Akarshit" height="300" style="width:100%">
+      <div class="container">
+        <h2>Akarshit Srivastav</h2>
+        <p class="title">Full Stack Web Developer</p>
+        <p>.......</p>
+        <a href="akarshit.srivastav_cs18@gla.ac.in"><p>akarshit.srivastav_cs18@gla.ac.in</p></a>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card">
+      <img src="images/nobita_harshit.jpg" alt="Harshit" height="300" style="width:100%">
+      <div class="container">
+        <h2>Harshit Saxena</h2>
+        <p class="title">Designer and Front End Developer</p>
+        <p>.......</p>
+        <a href="harshit.saxena_cs18@gla.ac.in"><p>harshit.saxena_cs18@gla.ac.in</p></a>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card">
+      <img src="images/dekisugi_varun.jpg" alt="Varun" height="300" style="width:100%">
+      <div class="container">
+        <h2>Varun Saxena</h2>
+        <p class="title">Full Stack Web Developer</p>
+        <p>.......</p>
+        <a href="varun.saxena_cs18@gla.ac.in"><p>varun.saxena_cs18@gla.ac.in</P></a>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+  
+</div>
+
+<div class="footer">
+</div>
+
+</body>
+</html>
