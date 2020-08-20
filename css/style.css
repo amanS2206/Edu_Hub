@@ -13,19 +13,19 @@
     height: 100px;
     float: left;
 }
+
 #nav1{
     background-color: #ffc107;
     border:0px;
     border-radius: 0px;
     margin-bottom: 15px;
 }
-/* for heading style */
+/* for heading */
 #h1he{
     text-align: center;
     font-size: 5vw;
     color: #dc3545;
-
-
+  
 }
 #bty{
     margin-top: 5vw;
@@ -46,3 +46,8 @@ margin-left: 28vw;
 #vide{
     margin-top: 20px;
 }
+=======
+.img-fluid{
+  width=60%;
+}
+
