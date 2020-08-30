@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>secondPage</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <style>
         * {
             margin: 0;
@@ -30,11 +31,16 @@
         }
         /*here css of the floating images*/
         .container .banner{
-            height: 240px;
+            height: 500px;
             width: 100%;
             background: pink;
             margin-bottom: 30px;
             border-radius: 6px;
+        }
+        .container .banner .mySlides {display:none;}
+        img{
+            height: 500px;
+            width: 100%;
         }
         /*this part contains main part of page exists*/
         .container .mains{
@@ -164,7 +170,34 @@
         <div class="header">
             header
         </div>
-        <div class="banner">floating images</div>
+        <div class="banner">
+            <img class="mySlides" src="https://varunsaxena1332001.github.io/HTML_Practical_Codes/img/bootstrap_2.png" style="width:100%">
+            <img class="mySlides" src="https://varunsaxena1332001.github.io/HTML_Practical_Codes/img/HTML.png" style="width:100%">
+            <img class="mySlides" src="https://varunsaxena1332001.github.io/HTML_Practical_Codes/img/CSS.png" style="width:100%">
+            <img class="mySlides" src="https://varunsaxena1332001.github.io/HTML_Practical_Codes/img/JavaScript.png" style="width:100%">
+
+            <button class="left" onclick="plusDivs(-1)"><i class="fa fa-angle-double-left" style="font-size:48px; top: 48%; left: 0; z-index: 2;"></i></button>
+            <button class="right" onclick="plusDivs(1)"><i class="fa fa-angle-double-right" style="font-size:48px; top: 48%; right: 0; z-index: 2;"></i></button>
+        </div>
+        <script>
+            var slideIndex = 1;
+            showDivs(slideIndex);
+            
+            function plusDivs(n) {
+              showDivs(slideIndex += n);
+            }
+            
+            function showDivs(n) {
+              var i;
+              var x = document.getElementsByClassName("mySlides");
+              if (n > x.length) {slideIndex = 1}
+              if (n < 1) {slideIndex = x.length}
+              for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";  
+              }
+              x[slideIndex-1].style.display = "block";  
+            }
+        </script>
         <div class="mains">
             <div class="semester-1">
                 <div id="sem-1-icon"><a href="">Semester-1</a></div>
