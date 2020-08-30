@@ -106,18 +106,35 @@
             width: 100%;
             margin-top: 25px;
             margin-bottom: 50px;
-            background: black;
+            /*background: black;*/
             flex-direction: column;
         }
         .container .mains .semester-2 #sem-2-icon{
-            float: right;
+            float: left;
             height: 200px;
             width: 200px;
-            
-            background: brown;
-            
+            background: red;
+            margin-right: 25px;
             border-radius: 50%;
-            
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 25px;
+            text-decoration: none;
+            box-shadow: 6px 6px 6px 6px grey;
+        }
+        .container .mains .semester-2 #sem-2-icon a{
+            color: black;
+            text-decoration: none;
+        }
+        .container .mains .semester-2 #sem-2-icon:hover{
+            background: blue;    
+        }
+        .container .mains .semester-2 #sem-2-icon a:hover{
+            text-decoration: none;
+            color: whitesmoke;
+            font-size: 30px;
+            transition-duration: 1s;
         }
         .container .mains .semester-2 #sem-2-info{
             float: left;
@@ -156,8 +173,7 @@
             </div>
             <div class="semester-2">
                 <div id="sem-2-info">info of semester-2</div>
-                <div id="sem-2-icon"><a href="">Semester-1</a></div>
-                
+                <div id="sem-2-icon"><a href="">Semester-2</a></div>
             </div>
         </div>
         <div class="footer">footer</div>
