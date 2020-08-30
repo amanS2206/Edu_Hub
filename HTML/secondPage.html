@@ -16,7 +16,7 @@
             background: lightsteelblue;
         }
         /*here css of the header of the page is written*/
-        .header{
+        .container .header{
             width: 100%;
             height: 70px;
             display: flex;
@@ -24,7 +24,7 @@
             align-items: center;
             font-size: 40px;
             background:brown;
-            border: brown solid 3px;
+            /*border: brown solid 3px;*/
             border-radius: 6px;
             margin-bottom: 40px;
         }
@@ -58,20 +58,38 @@
             width: 100%;
             margin-top: 25px;
             margin-bottom: 50px;
-            background: black;
+            /*background: black;*/
             flex-direction: column;
             
         }
-        .container .mains .semester-1 #image-1{
+        .container .mains .semester-1 #sem-1-icon{
             float: left;
             height: 200px;
             width: 200px;
-            border-radius: 6px;
-            background: brown;
+            background: red;
             margin-right: 25px;
-            border-radius: 10px;
-            
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 25px;
+            text-decoration: none;
+            box-shadow: 6px 6px 6px 6px grey;
         }
+        .container .mains .semester-1 #sem-1-icon a{
+            color: black;
+            text-decoration: none;
+        }
+        .container .mains .semester-1 #sem-1-icon:hover{
+            background: blue;    
+        }
+        .container .mains .semester-1 #sem-1-icon a:hover{
+            text-decoration: none;
+            color: whitesmoke;
+            font-size: 30px;
+            transition-duration: 1s;
+        }
+
         .container .mains .semester-1 #sem-1-info{
             float: right;
             height: 200px;
@@ -81,7 +99,6 @@
             display: flex;
             justify-content: center;
             align-items: center;
-
         }
         /*here 2nd details of first semeter is written*/
         .container .mains .semester-2{
@@ -92,14 +109,14 @@
             background: black;
             flex-direction: column;
         }
-        .container .mains .semester-2 #image-2{
+        .container .mains .semester-2 #sem-2-icon{
             float: right;
             height: 200px;
             width: 200px;
-            border-radius: 6px;
+            
             background: brown;
             
-            border-radius: 10px;
+            border-radius: 50%;
             
         }
         .container .mains .semester-2 #sem-2-info{
@@ -133,13 +150,13 @@
         <div class="banner">floating images</div>
         <div class="mains">
             <div class="semester-1">
-                <div id="image-1"><img src="" alt="semester-1"></div>
+                <div id="sem-1-icon"><a href="">Semester-1</a></div>
                 
                 <div id="sem-1-info">info od semester-1</div>
             </div>
             <div class="semester-2">
                 <div id="sem-2-info">info of semester-2</div>
-                <div id="image-2"><img src="" alt="semester-2"></div>
+                <div id="sem-2-icon"><a href="">Semester-1</a></div>
                 
             </div>
         </div>
