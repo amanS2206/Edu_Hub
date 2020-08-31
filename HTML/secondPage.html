@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>secondPage</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            /*background: lightsteelblue;*/
+            
+        }
+        .container{
+            border: solid steelblue 3px;
+            background: lightsteelblue;
+        }
+        /*here css of the header of the page is written*/
+        .container .header{
+            width: 100%;
+            height: 70px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 40px;
+            background:brown;
+            /*border: brown solid 3px;*/
+            border-radius: 6px;
+            margin-bottom: 40px;
+        }
+        /*here css of the floating images*/
+        .container .banner{
+            height: 500px;
+            width: 100%;
+            background: pink;
+            margin-bottom: 30px;
+            border-radius: 6px;
+        }
+        .container .banner .mySlides {display:none;}
+        img{
+            height: 500px;
+            width: 100%;
+        }
+        /*this part contains main part of page exists*/
+        .container .mains{
+            height: 500px;
+            
+            padding: 20px 20px 20px 30px;
+            background: lightgrey;
+            margin-bottom: 20px;
+            border-radius: 10px;
+            flex-direction: row;
+            
+        }
+        /*Now main part is divided into two parts:-
+            1st semester part
+            2nd semester part
+        */
+
+        /*here 1st details of first semeter is written*/
+        .container .mains .semester-1{
+            height: 200px;
+            width: 100%;
+            margin-top: 25px;
+            margin-bottom: 50px;
+            /*background: black;*/
+            flex-direction: column;
+            
+        }
+        .container .mains .semester-1 #sem-1-icon{
+            float: left;
+            height: 200px;
+            width: 200px;
+            background: red;
+            margin-right: 25px;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 25px;
+            text-decoration: none;
+            box-shadow: 6px 6px 6px 6px grey;
+        }
+        .container .mains .semester-1 #sem-1-icon a{
+            color: black;
+            text-decoration: none;
+        }
+        .container .mains .semester-1 #sem-1-icon:hover{
+            background: blue;    
+        }
+        .container .mains .semester-1 #sem-1-icon a:hover{
+            text-decoration: none;
+            color: whitesmoke;
+            font-size: 30px;
+            transition-duration: 1s;
+        }
+
+        .container .mains .semester-1 #sem-1-info{
+            float: right;
+            height: 200px;
+            width: 1026px;
+            background: purple;
+            border-radius: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        /*here 2nd details of first semeter is written*/
+        .container .mains .semester-2{
+            height: 200px;
+            width: 100%;
+            margin-top: 25px;
+            margin-bottom: 50px;
+            /*background: black;*/
+            flex-direction: column;
+        }
+        .container .mains .semester-2 #sem-2-icon{
+            float: left;
+            height: 200px;
+            width: 200px;
+            background: red;
+            margin-right: 25px;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 25px;
+            text-decoration: none;
+            box-shadow: 6px 6px 6px 6px grey;
+        }
+        .container .mains .semester-2 #sem-2-icon a{
+            color: black;
+            text-decoration: none;
+        }
+        .container .mains .semester-2 #sem-2-icon:hover{
+            background: blue;    
+        }
+        .container .mains .semester-2 #sem-2-icon a:hover{
+            text-decoration: none;
+            color: whitesmoke;
+            font-size: 30px;
+            transition-duration: 1s;
+        }
+        .container .mains .semester-2 #sem-2-info{
+            float: left;
+            height: 200px;
+            width: 1026px;
+            background: purple;
+            border-radius: 10px;
+            margin-right: 25px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+        /*here footer is set*/
+        .container .footer{
+            height: 70px;
+            width: 100%;
+            background: greenyellow;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            header
+        </div>
+        <div class="banner">
+            <img class="mySlides" src="https://varunsaxena1332001.github.io/HTML_Practical_Codes/img/bootstrap_2.png" style="width:100%">
+            <img class="mySlides" src="https://varunsaxena1332001.github.io/HTML_Practical_Codes/img/HTML.png" style="width:100%">
+            <img class="mySlides" src="https://varunsaxena1332001.github.io/HTML_Practical_Codes/img/CSS.png" style="width:100%">
+            <img class="mySlides" src="https://varunsaxena1332001.github.io/HTML_Practical_Codes/img/JavaScript.png" style="width:100%">
+
+            <button class="left" onclick="plusDivs(-1)"><i class="fa fa-angle-double-left" style="font-size:48px; top: 48%; left: 0; z-index: 2;"></i></button>
+            <button class="right" onclick="plusDivs(1)"><i class="fa fa-angle-double-right" style="font-size:48px; top: 48%; right: 0; z-index: 2;"></i></button>
+        </div>
+        <script>
+            var slideIndex = 1;
+            showDivs(slideIndex);
+            
+            function plusDivs(n) {
+              showDivs(slideIndex += n);
+            }
+            
+            function showDivs(n) {
+              var i;
+              var x = document.getElementsByClassName("mySlides");
+              if (n > x.length) {slideIndex = 1}
+              if (n < 1) {slideIndex = x.length}
+              for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";  
+              }
+              x[slideIndex-1].style.display = "block";  
+            }
+        </script>
+        <div class="mains">
+            <div class="semester-1">
+                <div id="sem-1-icon"><a href="">Semester-1</a></div>
+                
+                <div id="sem-1-info">info od semester-1</div>
+            </div>
+            <div class="semester-2">
+                <div id="sem-2-info">info of semester-2</div>
+                <div id="sem-2-icon"><a href="">Semester-2</a></div>
+            </div>
+        </div>
+        <div class="footer">footer</div>
+    </div>
+</body>
+</html>
