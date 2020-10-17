@@ -20,10 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4296b96c-0553-4af5-a808-a43be395cc0f" name="Default Changelist" comment="main page half complete">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/Swami-Vivekananda-9.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/download.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/vivekananda-11-1515652951.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -69,7 +66,8 @@
       <workItem from="1597909492690" duration="2590000" />
       <workItem from="1597914218065" duration="2910000" />
       <workItem from="1597921954190" duration="293000" />
-      <workItem from="1602940446354" duration="2797000" />
+      <workItem from="1602940446354" duration="2933000" />
+      <workItem from="1602945764665" duration="309000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1597839348223</created>
@@ -85,7 +83,14 @@
       <option name="project" value="LOCAL" />
       <updated>1597843240441</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="main page half complete">
+      <created>1602944606166</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1602944606166</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -110,10 +115,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="main page half complete" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="306" y="132" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1597839364133">
+    <state x="306" y="132" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1602944611816">
       <screen x="57" y="27" width="1309" height="741" />
     </state>
-    <state x="306" y="132" width="800" height="528" key="Vcs.Push.Dialog.v2/57.27.1309.741@57.27.1309.741" timestamp="1597839364133" />
+    <state x="306" y="132" width="800" height="528" key="Vcs.Push.Dialog.v2/57.27.1309.741@57.27.1309.741" timestamp="1602944611816" />
     <state x="374" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1597910306857">
       <screen x="57" y="27" width="1309" height="741" />
     </state>
