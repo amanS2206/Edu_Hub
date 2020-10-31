@@ -5,166 +5,180 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/style.css">
     <title>secondPage</title>
-    
     <style>
-        * {
-            margin: 0;
-            padding: 0;
-            /*background: lightsteelblue;*/
-            
-        }
-        .container{
-            border: solid steelblue 3px;
-            background: lightsteelblue;
-        }
-        /*here css of the header of the page is written*/
-        .container .header{
-            width: 100%;
-            height: 70px;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            font-size: 60px;
-            background:brown;
-            color: aqua;
-            font-variant: small-caps;
-            /*border: brown solid 3px;*/
-            border-radius: 6px;
-            margin-bottom: 40px;
-        }
-        /*here css of the floating images*/
-        .container .banner{
-            height: 500px;
-            width: 100%;
-            background: pink;
-            margin-bottom: 30px;
-            border-radius: 6px;
-        }
-        .container .banner .mySlides {display:visible;}
-        img{
-            height: 100%;
-            width: 100%;
-        }
-        /*this part contains main part of page exists*/
-        .container .mains{
-            height: 500px;
-            
-            padding: 20px 20px 20px 30px;
-            background: lightgrey;
-            margin-bottom: 20px;
-            border-radius: 10px;
-            flex-direction: row;
-            
-        }
-        /*Now main part is divided into two parts:-
-            1st semester part
-            2nd semester part
-        */
+      * {
+          margin: 0;
+          padding: 0;
+          /*background: lightsteelblue;*/
+          
+      }
+      body{
+          border: solid steelblue 3px;
+          background: lightsteelblue;
+      }
+      /*here css of the header of the page is written*/
+      .header{
+          width: 100%;
+          height: 70px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          font-size: 60px;
+          background:brown;
+          color: aqua;
+          font-variant: small-caps;
+          /*border: brown solid 3px;*/
+          border-radius: 6px;
+          margin-bottom: 40px;
+      }
+      /*here css of the floating images*/
+      .banner{
+          height: 500px;
+          width: 100%;
+          background: pink;
+          margin-bottom: 30px;
+          border-radius: 6px;
+      }
+      .banner .mySlides {display:visible;}
+      img{
+          height: 100%;
+          width: 100%;
+      }
+      /*this part contains main part of page exists*/
+      .mains{
+          height: 540px;
+          
+          padding: 20px 20px 20px 30px;
+          background: lightgrey;
+          margin-bottom: 20px;
+          border-radius: 10px;
+          flex-direction: row;
+          
+      }
+      /*Now main part is divided into two parts:-
+          1st semester part
+          2nd semester part
+      */
 
-        /*here 1st details of first semeter is written*/
-        .container .mains .semester-1{
-            height: 200px;
-            width: 100%;
-            margin-top: 25px;
-            margin-bottom: 50px;
-            /*background: black;*/
-            flex-direction: column;
-            
-        }
-        .container .mains .semester-1 #sem-1-icon{
-            float: left;
-            height: 200px;
-            width: 200px;
-            background: red;
-            margin-right: 25px;
-            border-radius: 50%;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            font-size: 25px;
-            text-decoration: none;
-            box-shadow: 6px 6px 6px 6px grey;
-        }
-        .container .mains .semester-1 #sem-1-icon a{
-            color: black;
-            text-decoration: none;
-        }
-        .container .mains .semester-1 #sem-1-icon:hover{
-            background: blue;    
-        }
-        .container .mains .semester-1 #sem-1-icon a:hover{
-            text-decoration: none;
-            color: whitesmoke;
-            font-size: 30px;
-            transition-duration: 1s;
-        }
+      /*here 1st details of first semeter is written*/
+      .mains .semester-1{
+          height: 200px;
+          width: 100%;
+          margin-top: 25px;
+          margin-bottom: 50px;
+          /*background: black;*/
+          flex-direction: column;
+          
+      }
+      .mains .semester-1 #sem-1-icon{
+          float: left;
+          height: 200px;
+          width: 200px;
+          background: red;
+          margin-right: 25px;
+          border-radius: 50%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          font-size: 25px;
+          text-decoration: none;
+          box-shadow: 6px 6px 6px 6px grey;
+      }
+      .mains .semester-1 #sem-1-icon a{
+          color: black;
+          text-decoration: none;
+      }
+      .mains .semester-1 #sem-1-icon:hover{
+          background: blue;    
+      }
+      .mains .semester-1 #sem-1-icon a:hover{
+          text-decoration: none;
+          color: whitesmoke;
+          font-size: 30px;
+          transition-duration: 1s;
+      }
 
-        .container .mains .semester-1 #sem-1-info{
-            float: right;
-            height: 200px;
-            width: 1026px;
-            background: purple;
-            border-radius: 10px;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-        /*here 2nd details of first semeter is written*/
-        .container .mains .semester-2{
-            height: 200px;
-            width: 100%;
-            margin-top: 25px;
-            margin-bottom: 50px;
-            /*background: black;*/
-            flex-direction: column;
-        }
-        .container .mains .semester-2 #sem-2-icon{
-            float: left;
-            height: 200px;
-            width: 200px;
-            background: red;
-            margin-right: 25px;
-            border-radius: 50%;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            font-size: 25px;
-            text-decoration: none;
-            box-shadow: 6px 6px 6px 6px grey;
-        }
-        .container .mains .semester-2 #sem-2-icon a{
-            color: black;
-            text-decoration: none;
-        }
-        .container .mains .semester-2 #sem-2-icon:hover{
-            background: blue;    
-        }
-        .container .mains .semester-2 #sem-2-icon a:hover{
-            text-decoration: none;
-            color: whitesmoke;
-            font-size: 30px;
-            transition-duration: 1s;
-        }
-        .container .mains .semester-2 #sem-2-info{
-            float: left;
-            height: 200px;
-            width: 1026px;
-            background: purple;
-            border-radius: 10px;
-            margin-right: 25px;
-            display: flex;
-            justify-content: center;
-            align-items: center;
+      .mains .semester-1 #sem-1-info{
+          float: right;
+          height: 200px;
+          width: 1026px;
+          background: purple;
+          border-radius: 10px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+      }
+      /*here 2nd details of first semeter is written*/
+      .mains .semester-2{
+          height: 200px;
+          width: 100%;
+          margin-top: 25px;
+          margin-bottom: 50px;
+          /*background: black;*/
+          flex-direction: column;
+      }
+      .mains .semester-2 #sem-2-icon{
+          float: left;
+          height: 200px;
+          width: 200px;
+          background: red;
+          /* margin-right: 25px; */
+          border-radius: 50%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          font-size: 25px;
+          text-decoration: none;
+          box-shadow: 6px 6px 6px 6px grey;
+      }
+      .mains .semester-2 #sem-2-icon a{
+          color: black;
+          text-decoration: none;
+      }
+      .mains .semester-2 #sem-2-icon:hover{
+          background: blue;    
+      }
+      .mains .semester-2 #sem-2-icon a:hover{
+          text-decoration: none;
+          color: whitesmoke;
+          font-size: 30px;
+          transition-duration: 1s;
+      }
+      .mains .semester-2 #sem-2-info{
+          float: left;
+          height: 200px;
+          width: 1026px;
+          background: purple;
+          border-radius: 10px;
+          margin-right: 50px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
 
-        }
+      }
+      .footer{
+  background-color: lightcyan;
+  margin: 50px 0px auto;
+  padding: 20px 0px 20px 0px;
+}
+/* fonticons css */
+.profile-link i{
+  color: black;
+  font-size: 30px;
+  margin-left: 25px;
+}
+
+.profile-link i:hover{
+color: #dc3545;
+}
       
     </style>
 </head>
 <body>
-    <div class="container">
+    <!-- <div class="container"> -->
         <div class="header">
             Second Year
         </div>
