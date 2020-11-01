@@ -1,3 +1,12 @@
+
+
+<?php
+session_start();
+
+?>
+
+
+
 <!doctype html>
 <html lang="en">
 
@@ -20,7 +29,7 @@
 
   <nav id="nav1" class="navbar navbar-expand-lg navbar-dark bg-dark  ">
     <div class="container">
-      <a class="navbar-brand" href="index.html"><img id="logo-img" src="images/pp.jpeg" class="img-fluid"></a>
+      <a class="navbar-brand" href="index.php"><img id="logo-img" src="images/pp.jpeg" class="img-fluid"></a>
 
 
       <button class="navbar-toggler" data-toggle="collapse" data-target="#navbar">
@@ -51,10 +60,32 @@
 
 
           <li class="nav-item">
-            <span id="loginButton"class="nav-link" >Login</span>
+
+                <?php
+                if($_SESSION['loggedin']){
+
+                    echo " <a href='php/login.php' style='color: #c69500' id='loginButton'class='nav-link' >".$_SESSION['username']."</a>";
+                }
+                else{
+                    echo " <a href='php/login.php' id='loginButton'class='nav-link' >Login</a>";
+
+                }
+                ?>
+
           </li>
           <li class="nav-item">
-            <a id="signupButton" class="nav-link" >Signup</a>
+              <?php
+              if($_SESSION['loggedin']){
+               echo '  <a href="php/logout.php" id="signupButton" class="nav-link" >Logout</a>';
+              }
+              else{
+                  echo ' <a href="php/signup.php" id="loginButto"class="nav-link" >Signup</a>';
+              }
+              ?>
+
+
+
+
           </li>
         </ul>
       </div>
@@ -68,42 +99,6 @@
 
    <!----------------------------------------------------------------- login modal -------------------------------------------------------------------->
   
-  <div id="loginModal" class="modal fade" role="dialog">
-    <div class="modal-dialog modal-lg" role="document">
-      <div class="modal-content">
-        <div class="modal-header navbar-dark" style="color:white; background-color: rgb(45, 42, 54);">
-          <h4 class="modal-title">Login </h4>
-          <button type="button" class="close" data-dismiss="modal">&times;</button>
-        </div>
-        <div class="modal-body" style="background-color:#eeecf1;">
-          <form>
-            <div class="form-row">
-              <div class="form-group col-sm-4">
-                <label class="sr-only" for="exampleInputEmail3">Email address</label>
-                <input type="email" class="form-control form-control-sm mr-1" id="exampleInputEmail3" placeholder="Enter email">
-              </div>
-              <div class="form-group col-sm-4">
-                <label class="sr-only" for="exampleInputPassword3">Password</label>
-                <input type="password" class="form-control form-control-sm mr-1" id="exampleInputPassword3" placeholder="Password">
-              </div>
-              <div class="col-sm-auto">
-                <div class="form-check">
-                  <input class="form-check-input" type="checkbox">
-                  <label class="form-check-label"> Remember me
-                  </label>
-                </div>
-              </div>
-            </div>
-            <div class="form-row">
-              <button type="button" class="btn btn-secondary btn-sm ml-auto" data-dismiss="modal">Cancel</button>
-              <button type="submit" class="btn btn-primary btn-sm ml-1">Sign in</button>
-            </div>
-          </form>
-        </div>
-      </div>
-    </div>
-  </div>
-
 
   <!------------------------------------------------------------------- login modal ----------------------------------------------------------------------->
  
@@ -115,40 +110,6 @@
  <!--------------------------------------------------------------------- Sign UP modal --------------------------------------------------------------------->
 
  
-
-<div class="modal fade" id="signupModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered" role="document">
-    <div class="modal-content">
-      <div class="modal-header border-bottom-0" style="background-color:rgb(45, 42, 54) ;">
-         <h5 class="modal-title" id="exampleModalLabel" style="color: white;">Create Account</h5>
-         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-         <span aria-hidden="true">&times;</span>
-        </button>
-        
-      </div>
-      <form>
-        <div class="modal-body">
-          <div class="form-group">
-            <label for="email1">Email address</label>
-            <input type="email" class="form-control" id="email1" aria-describedby="emailHelp" placeholder="Enter email">
-            <small id="emailHelp" class="form-text text-muted">Your information is safe with us.</small>
-          </div>
-          <div class="form-group">
-            <label for="password1">Password</label>
-            <input type="password" class="form-control" id="password1" placeholder="Password">
-          </div>
-          <div class="form-group">
-            <label for="password1">Confirm Password</label>
-            <input type="password" class="form-control" id="password2" placeholder="Confirm Password">
-          </div>
-        </div>
-        <div class="modal-footer border-top-0 d-flex justify-content-center">
-          <button type="submit" class="btn btn-success">Submit</button>
-        </div>
-      </form>
-    </div>
-  </div>
-</div>
 
   <!--------------------------------------------------------------------- Sign UP modal --------------------------------------------------------------------->
  
