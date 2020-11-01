@@ -30,7 +30,53 @@
           /*border: brown solid 3px;*/
           border-radius: 6px;
           margin-bottom: 40px;
-      }
+        }
+        .semesters{
+            width: 1200px;
+            
+            margin: auto;
+            padding: auto;
+            background-color: white;
+            box-shadow: 0 0 15px 0px #000;
+            clip-path: inset(0px -15px 0px -15px);
+            
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+        .semesters .semester-sub{
+            height: 200px;
+            width: 800px;
+            border-bottom: gray 01px solid;
+            border-top: gray 1px solid;
+            border-collapse: collapse;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+        }
+        .semesters .semester-sub .subject{
+            display: block;
+            width: 100px;
+            font-family: fantasy;
+            font-size: 40px;
+        }
+        
+        .dropdown-menu{
+            padding: 0;
+            width: max-content;
+        }
+        .dropdown-menu{            
+            border-radius: 10px;
+        }
+        .semesters ul li div button a{
+            color: white;
+            text-decoration: none;
+        }
+        .semesters ul li div button a:hover{
+            color: orange;
+        }
     </style>
 </head>
 <body>
