@@ -17,7 +17,7 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <title>First Semster</title>
     <style>
-        .header{
+        @media(min-width: 450px){.header{
           width: 100%;
           height: 70px;
           display: flex;
@@ -27,10 +27,22 @@
           background:brown;
           color: aqua;
           font-variant: small-caps;
-          /*border: brown solid 3px;*/
           border-radius: 6px;
           margin-bottom: 40px;
-        }
+        }}
+        @media(min-width: 100px) and (max-width: 450px){.header{
+          width: 100%;
+          height: 70px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          font-size: 30px;
+          background:brown;
+          color: aqua;
+          font-variant: small-caps;
+          border-radius: 6px;
+          margin-bottom: 40px;
+        }}
         .semesters{
             width: 1200px;
             
