@@ -43,14 +43,15 @@
           border-radius: 6px;
           margin-bottom: 40px;
         }}
-        .semesters{
-            width: 1200px;
+        @media(min-width: 1100px){
+            .semesters{
+            width: 100%;
             
             margin: auto;
             padding: auto;
             background-color: white;
-            box-shadow: 0 0 15px 0px #000;
-            clip-path: inset(0px -15px 0px -15px);
+            /* box-shadow: 0 0 15px 0px #000; */
+            /* clip-path: inset(0px -15px 0px -15px); */
             
             display: flex;
             flex-direction: column;
@@ -70,7 +71,7 @@
         }
         .semesters .semester-sub .subject{
             display: block;
-            width: 100px;
+            width: 10%;
             font-family: fantasy;
             font-size: 40px;
         }
@@ -88,6 +89,56 @@
         }
         .semesters ul li div button a:hover{
             color: orange;
+        }}
+        @media (min-width: 200px) and (max-width: 1100px){
+            .semesters{
+            width: 100%;
+            
+            margin: auto;
+            padding: auto;
+            background-color: white;
+            /* box-shadow: 0 0 15px 0px #000; */
+            /* clip-path: inset(0px -15px 0px -15px); */
+            
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .semesters .semester-sub{
+            height: 200px;
+            width: 80%;
+            border-bottom: gray 01px solid;
+            border-top: gray 1px solid;
+            border-collapse: collapse;
+            /* display: flex;
+            flex-direction: column;*/
+            /* text-align: center; */
+            justify-content: center; 
+            align-items: center;
+            align-content: center;
+        }
+        .semesters .semester-sub .subject{
+            display: block;
+            width: 10%;
+            font-family: fantasy;
+            font-size: 30px;
+        }
+        
+        .dropdown-menu{
+            padding: 0;
+            width: max-content;
+        }
+        .dropdown-menu{            
+            border-radius: 10px;
+        }
+        .semesters ul li div button a{
+            color: white;
+            text-decoration: none;
+        }
+        .semesters ul li div button a:hover{
+            color: orange;
+        }
         }
         .footer{
   background-color: lightcyan;
