@@ -1,3 +1,12 @@
+
+
+<?php
+session_start();
+
+?>
+
+
+
 <!doctype html>
 <html lang="en">
 
@@ -8,7 +17,8 @@
   <!-- fonticons -->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
     integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <!-- <link rel="stylesheet" href="css/bootstrap.min.css"> -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
   <link rel="stylesheet" href="css/style.css">
   <!-- Bootstrap CSS -->
   <title>Edu_Hub</title>
@@ -19,7 +29,7 @@
 
   <nav id="nav1" class="navbar navbar-expand-lg navbar-dark bg-dark  ">
     <div class="container">
-      <a class="navbar-brand" href="index.html"><img id="logo-img" src="images/pp.jpeg" class="img-fluid"></a>
+      <a class="navbar-brand" href="index.php"><img id="logo-img" src="images/pp.jpeg" class="img-fluid"></a>
 
 
       <button class="navbar-toggler" data-toggle="collapse" data-target="#navbar">
@@ -50,10 +60,32 @@
 
 
           <li class="nav-item">
-            <a class="nav-link" href="index.html">Login</a>
+
+                <?php
+                if($_SESSION['loggedin']){
+
+                    echo " <a href='php/login.php' style='color: #c69500' id='loginButton'class='nav-link' >".$_SESSION['username']."</a>";
+                }
+                else{
+                    echo " <a href='php/login.php' id='loginButton'class='nav-link' >Login</a>";
+
+                }
+                ?>
+
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="index.html">Signup</a>
+              <?php
+              if($_SESSION['loggedin']){
+               echo '  <a href="php/logout.php" id="signupButton" class="nav-link" >Logout</a>';
+              }
+              else{
+                  echo ' <a href="php/signup.php" id="loginButto"class="nav-link" >Signup</a>';
+              }
+              ?>
+
+
+
+
           </li>
         </ul>
       </div>
@@ -63,6 +95,24 @@
     </div>
   </nav>
 
+
+
+   <!----------------------------------------------------------------- login modal -------------------------------------------------------------------->
+  
+
+  <!------------------------------------------------------------------- login modal ----------------------------------------------------------------------->
+ 
+ 
+ 
+ 
+ 
+ 
+ <!--------------------------------------------------------------------- Sign UP modal --------------------------------------------------------------------->
+
+ 
+
+  <!--------------------------------------------------------------------- Sign UP modal --------------------------------------------------------------------->
+ 
 
   <div class="container">
     <h1 id="h1he">Edu_hub : Get Ready to Learn!</h1>
@@ -338,6 +388,8 @@
 
 
   <!------------------------------------------------------------------ footer------------------------------------------------>
+  
+  
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
@@ -349,6 +401,17 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
     integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
     crossorigin="anonymous"></script>
+
+    <script>
+       $('#loginButton').click(function() {
+        $('#loginModal').modal('show');
+      });
+
+      $('#signupButton').click(function(){
+        $('#signupModal').modal('show');
+      });
+
+    </script>
 </body>
 
 </html>

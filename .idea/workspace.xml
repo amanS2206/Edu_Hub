@@ -20,8 +20,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4296b96c-0553-4af5-a808-a43be395cc0f" name="Default Changelist" comment="main page half complete">
+      <change afterPath="$PROJECT_DIR$/php/login.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/php/logout.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/php/signup.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Edu_Hub.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Edu_Hub.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,9 +35,20 @@
   <component name="ComposerSettings">
     <execution />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Pull.Settings">
+    <option name="BRANCH" value="master" />
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 7.4" />
   <component name="ProjectId" id="1gJhyL40oC1EPEG0A9xGwTjOBsQ" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -45,8 +60,8 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -68,6 +83,14 @@
       <workItem from="1597921954190" duration="293000" />
       <workItem from="1602940446354" duration="2933000" />
       <workItem from="1602945764665" duration="309000" />
+      <workItem from="1603718956695" duration="659000" />
+      <workItem from="1603819341093" duration="209000" />
+      <workItem from="1603819695569" duration="4822000" />
+      <workItem from="1603905233171" duration="499000" />
+      <workItem from="1604228030798" duration="871000" />
+      <workItem from="1604229266751" duration="151000" />
+      <workItem from="1604229421421" duration="4204000" />
+      <workItem from="1604238067891" duration="8647000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1597839348223</created>
@@ -115,6 +138,18 @@
     <option name="LAST_COMMIT_MESSAGE" value="main page half complete" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="361" y="27" key="#PHP" timestamp="1603821112144">
+      <screen x="66" y="27" width="1300" height="741" />
+    </state>
+    <state x="361" y="27" key="#PHP/66.27.1300.741@66.27.1300.741" timestamp="1603821112144" />
+    <state x="311" y="59" width="800" height="684" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603820571379">
+      <screen x="66" y="27" width="1300" height="741" />
+    </state>
+    <state x="311" y="59" width="800" height="684" key="#com.intellij.execution.impl.EditConfigurationsDialog/66.27.1300.741@66.27.1300.741" timestamp="1603820571379" />
+    <state x="511" y="323" width="399" height="156" key="NewPhpFileDialog" timestamp="1604241316054">
+      <screen x="66" y="27" width="1300" height="741" />
+    </state>
+    <state x="511" y="323" width="399" height="156" key="NewPhpFileDialog/66.27.1300.741@66.27.1300.741" timestamp="1604241316054" />
     <state x="306" y="132" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1602944611816">
       <screen x="57" y="27" width="1309" height="741" />
     </state>
