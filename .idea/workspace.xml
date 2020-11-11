@@ -20,12 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4296b96c-0553-4af5-a808-a43be395cc0f" name="Default Changelist" comment="main page half complete">
-      <change afterPath="$PROJECT_DIR$/php/login.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/php/logout.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/php/signup.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Edu_Hub.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Edu_Hub.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML/2year.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +36,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -61,6 +59,7 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="vue.rearranger.settings.migration" value="true" />
@@ -91,6 +90,13 @@
       <workItem from="1604229266751" duration="151000" />
       <workItem from="1604229421421" duration="4204000" />
       <workItem from="1604238067891" duration="8647000" />
+      <workItem from="1604388732708" duration="610000" />
+      <workItem from="1604756939718" duration="1725000" />
+      <workItem from="1604846869825" duration="55000" />
+      <workItem from="1604914064881" duration="1917000" />
+      <workItem from="1604927308602" duration="8000" />
+      <workItem from="1605020991593" duration="7788000" />
+      <workItem from="1605118171349" duration="2189000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1597839348223</created>
@@ -146,6 +152,10 @@
       <screen x="66" y="27" width="1300" height="741" />
     </state>
     <state x="311" y="59" width="800" height="684" key="#com.intellij.execution.impl.EditConfigurationsDialog/66.27.1300.741@66.27.1300.741" timestamp="1603820571379" />
+    <state x="166" y="127" width="1100" height="541" key="DiffContextDialog" timestamp="1605118632396">
+      <screen x="66" y="27" width="1300" height="741" />
+    </state>
+    <state x="166" y="127" width="1100" height="541" key="DiffContextDialog/66.27.1300.741@66.27.1300.741" timestamp="1605118632396" />
     <state x="511" y="323" width="399" height="156" key="NewPhpFileDialog" timestamp="1604241316054">
       <screen x="66" y="27" width="1300" height="741" />
     </state>
@@ -154,6 +164,10 @@
       <screen x="57" y="27" width="1309" height="741" />
     </state>
     <state x="306" y="132" width="800" height="528" key="Vcs.Push.Dialog.v2/57.27.1309.741@57.27.1309.741" timestamp="1602944611816" />
+    <state x="380" y="174" key="run.anything.popup" timestamp="1605034146874">
+      <screen x="66" y="27" width="1300" height="741" />
+    </state>
+    <state x="380" y="174" key="run.anything.popup/66.27.1300.741@66.27.1300.741" timestamp="1605034146874" />
     <state x="374" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1597910306857">
       <screen x="57" y="27" width="1309" height="741" />
     </state>

@@ -45,17 +45,54 @@ session_start();
       <div class="collapse navbar-collapse" id="navbar">
 
         <ul class="navbar-nav text-center ml-auto">
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Categories
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <li><a class="dropdown-item" href="#">Ist Year</a></li>
 
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
-              aria-haspopup="true" aria-expanded="false">
-              Categories.
-            </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="#">First Year</a>
-              <a class="dropdown-item" href="HTML/secondPage.html">Second Year</a>
-              <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="#">Something else here</a>
+                    <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle" href="#">CS</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">2 year</a></li>
+                            <li><a class="dropdown-item" href="#">3 year</a></li>
+                            <li><a class="dropdown-item" href="#">4 year</a></li>
+
+
+
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -403,6 +440,40 @@ session_start();
     crossorigin="anonymous"></script>
 
     <script>
+        $('.dropdown-menu a.dropdown-toggle').on('click', function(e) {
+            if (!$(this).next().hasClass('show')) {
+                $(this).parents('.dropdown-menu').first().find('.show').removeClass("show");
+            }
+            var $subMenu = $(this).next(".dropdown-menu");
+            $subMenu.toggleClass('show');
+
+
+            $(this).parents('li.nav-item.dropdown.show').on('hidden.bs.dropdown', function(e) {
+                $('.dropdown-submenu .show').removeClass("show");
+            });
+
+
+            return false;
+        });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
        $('#loginButton').click(function() {
         $('#loginModal').modal('show');
       });
