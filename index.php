@@ -37,16 +37,13 @@ session_start();
       </button>
 
 
-      <form class="form-inline my-2 my-lg-0 text-center">
-        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-      </form>
+
 
       <div class="collapse navbar-collapse" id="navbar">
 
         <ul class="navbar-nav text-center ml-auto">
             <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     Categories
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
