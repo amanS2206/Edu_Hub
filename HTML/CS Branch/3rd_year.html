@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="../../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../../css/style.css">
+
+    <title>3rd Year</title>
+    <style>
+
+        * {
+            margin: 0;
+            padding: 0;
+            /*background: lightsteelblue;*/
+            
+        }
+        /* .container{
+            border: solid steelblue 3px;
+            background: lightsteelblue;
+        } */
+        /*here css of the header of the page is written*/
+        .header{
+            width: 100%;
+            height: 70px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 60px;
+            background:brown;
+            color: aqua;
+            font-family: cursive, "Comic sans ms", serif;
+	          font-size: 60px;
+	          font-variant: small-caps;
+            /*border: brown solid 3px;*/
+            border-radius: 6px;
+            margin-bottom: 40px;
+            
+
+        }
+        .header:hover{
+          background: #F6EE0D;
+        	color: #0006CC;
+}
+        
+        /*here css of the floating images*/
+        .banner{
+            height: 500px;
+            width: 100%;
+            background: pink;
+            margin-bottom: 30px;
+            border-radius: 6px;
+        }
+        .banner .mySlides {display:visible;}
+        img{
+            height: 100%;
+            width: 100%;
+        }
+        /*this part contains main part of page exists*/
+        .mains{
+            height: 550px;
+            
+            padding: 20px 20px 20px 30px;
+            background: lightgrey;
+            margin-bottom: 20px;
+            border-radius: 10px;
+            flex-direction: row;
+            
+            
+        }
+        /*Now main part is divided into two parts:-
+            1st semester part
+            2nd semester part
+        */
+
+        /*here 1st details of first semeter is written*/
+        .mains .semester-1{
+            height: 200px;
+            width: 100%;
+            margin-top: 25px;
+            margin-bottom: 50px;
+            /*background: black;*/
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            
+        }
+        .mains .semester-1 #sem-1-icon{
+            float: left;
+            height: 200px;
+            width: 200px;
+            background: red;
+            margin-right: 25px;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 25px;
+            text-decoration: none;
+            box-shadow: 6px 6px 6px 6px grey;
+        }
+        .mains .semester-1 #sem-1-icon a{
+            color: greenyellow;
+            text-decoration: none;
+        }
+        .mains .semester-1 #sem-1-icon:hover{
+            background: blue;    
+        }
+        .mains .semester-1 #sem-1-icon a:hover{
+            text-decoration: none;
+            color: whitesmoke;
+            font-size: 30px;
+            transition-duration: 1s;
+        }
+
+        .mains .semester-1 #sem-1-info{
+            float: right;
+            height: 200px;
+            width: 1026px;
+            background: purple;
+            color: yellow;
+            font-size: 20px;
+   
+            font-family: 'Times New Roman', Times, serif;
+            border-radius: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            box-shadow: 6px 6px 6px 6px grey;
+        }
+        .mains .semester-1 #sem-1-info:hover{
+         background:yellow;
+         color : blue;
+         transition-property: inherit;
+         transition-duration: 1s;
+         transform-style: preserve-3d;
+       }
+
+
+        
+
+        
+
+        /*here 2nd details of first semeter is written*/
+        .mains .semester-2{
+            height: 200px;
+            width: 100%;
+            margin-top: 25px;
+            margin-bottom: 50px;
+            /*background: black;*/
+            flex-direction: column;
+        }
+        .mains .semester-2 #sem-2-icon{
+            float: left;
+            height: 200px;
+            width: 200px;
+            background: red;
+            margin-right: 25px;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 25px;
+            text-decoration: none;
+            box-shadow: 6px 6px 6px 6px grey;
+        }
+        .mains .semester-2 #sem-2-icon a{
+            color: yellowgreen;
+            text-decoration: none;
+        }
+        .mains .semester-2 #sem-2-icon:hover{
+            background: blue;    
+        }
+        .mains .semester-2 #sem-2-icon a:hover{
+            text-decoration: none;
+            color: whitesmoke;
+            font-size: 30px;
+            transition-duration: 1s;
+        }
+        .mains .semester-2 #sem-2-info{
+            float: left;
+            height: 200px;
+            width: 1026px;
+            background: purple;
+            color: yellow;
+            font-size: 20px;
+   
+            font-family: 'Times New Roman', Times, serif;
+            border-radius: 10px;
+            margin-right: 25px;
+            display: flex;
+            justify-content: center;
+            align-items: center;  
+            box-shadow: 6px 6px 6px 6px grey;       
+
+        }
+        .mains .semester-2 #sem-2-info:hover{
+         background:yellow;
+         color : blue;
+         transition-property: inherit;
+         transition-duration: 1s;
+         transform-style: preserve-3d;
+       }
+        .footer {
+         background: #72d7e9;
+         align-content: initial;
+        
+}
+   
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}   
+
+    </style>
+</head>
+<body>
+    <!-- <div class="container"> -->
+        <div class="header">
+            Third Year
+        </div>
+        <div class="banner">
+            <img class="mySlides" src="https://images.collegedunia.com/public/college_data/images/campusimage/147280329110.jpg" >
+            <img class="mySlides" src="https://images.collegedunia.com/public/college_data/images/campusimage/14728032919.jpg" style="width:100%">
+            <img class="mySlides" src="https://images.collegedunia.com/public/college_data/images/campusimage/15937008434.jpg" style="width:100%">
+            <img class="mySlides" src="https://images.collegedunia.com/public/college_data/images/campusimage/15937008437.jpg" style="width:100%">
+
+            <button class="left" onclick="plusDivs(-1)"><i class="fa fa-angle-double-left" style="font-size:48px; top: 48%; left: 0 ; z-index: 2;"></i></button>
+            <button class="right" onclick="plusDivs(1)"><i class="fa fa-angle-double-right" style="font-size:48px; top: 48%; right: 0; z-index: 2;"></i></button>
+        </div>
+        <script>
+            var slideIndex = 1;
+            showDivs(slideIndex);
+            
+            function plusDivs(n) {
+              showDivs(slideIndex += n);
+            }
+            
+            function showDivs(n) {
+              var i;
+              var x = document.getElementsByClassName("mySlides");
+              if (n > x.length) {slideIndex = 1}
+              if (n < 1) {slideIndex = x.length}
+              for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";  
+              }
+              x[slideIndex-1].style.display = "block";  
+            }
+        </script>
+        <div class="mains">
+            <div class="semester-1">
+                <div id="sem-1-icon"><a href="">Semester-5</a></div>
+                
+                <div id="sem-1-info">  Semester 1 contains the program elective subjects of the Department of Computer Engineering 
+                  and Applications under Choice Based Credit System(CBCS) respectively.
+                  It mainly contains the common subjects for students just taking their Engineering field after their secondary school.
+                </div>
+            </div>
+            <div class="semester-2">
+                <div id="sem-2-info">Semester 2 contains the program elective subjects of the Department of Computer Engineering 
+                  and Applications under Choice Based Credit System(CBCS) respectively.
+                  It mainly contains the common subjects for students just taking their Engineering field after their secondary school,
+                  at a little advanced stage
+                
+                </div>
+                <div id="sem-2-icon"><a href="">Semester-6</a></div>
+            </div>
+        </div>
+
+
+       
+ <footer class="footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-4 offset-1 col-sm-2">
+        <h5>Links</h5>
+        <ul class="list-unstyled">
+          <li><a href="#">Home</a></li>
+          <li><a href="about us.html">About</a></li>
+          <li><a href="#">Categories</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+      <div class="col-7 col-sm-5">
+        <h5>Our Address</h5>
+        <address>
+          GLA University
+          <br>
+          Mathura,Uttar Pradesh,India.
+          <br>
+          <i class="fa fa-phone fa-lg"></i>: +918787203291<br>
+          <i class="fa fa-fax fa-lg"></i>: +918601488273<br>
+          <i class="fa fa-envelope fa-lg"></i>: <a href="mailto:harshit.saxena_cs18@gla.ac.in">harshit.saxena_cs18@gla.ac.in</a>
+        </address>
+      </div>
+      <div class="col-12 col-sm-4 align-self-center">
+        <div class="text-center">
+          <a class="profile-link" href="http://google.com/+"><i class="fab fa-google fa-lg"></i></a>
+          <a class="profile-link" href="http://www.facebook.com/profile.php?id="><i class="fab fa-facebook-square fa-lg"></i></a>
+          <a class="profile-link" href="http://www.linkedin.com/in/"><i class="fab fa-linkedin fa-lg"></i></a>
+          <a class="profile-link" href="http://twitter.com"><i class="fab fa-twitter fa-lg"></i></a>
+          <a class="profile-link" href="http://youtube.com/"><i class="fab fa-youtube fa-lg"></i></a>
+          <a class="profile-link" href="mailto:"><i class="fas fa-envelope fa-lg"></i></a>
+        </div>
+      </div>
+    </div>
+    <div class="row justify-content-center">
+      <div class="col-auto"> 
+        <p>© Copyright 2020 Edu_Hub</p>
+      </div>
+    </div>
+  </div>
+</footer>
+</body>
+</html>
