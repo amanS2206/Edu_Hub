@@ -1,3 +1,12 @@
+
+
+<?php
+session_start();
+
+?>
+
+
+
 <!doctype html>
 <html lang="en">
 
@@ -15,12 +24,16 @@
   <title>Edu_Hub</title>
 </head>
 
-<body>
+<body onload="stop()">
+<div  id="preloaded">
 
+</div>
+
+<header>
 
   <nav id="nav1" class="navbar navbar-expand-lg navbar-dark bg-dark  ">
     <div class="container">
-      <a class="navbar-brand" href="index.html"><img id="logo-img" src="images/pp.jpeg" class="img-fluid"></a>
+      <a class="navbar-brand" href="index.php"><img id="logo-img" src="images/pp.jpeg" class="img-fluid"></a>
 
 
       <button class="navbar-toggler" data-toggle="collapse" data-target="#navbar">
@@ -28,33 +41,89 @@
       </button>
 
 
-      <form class="form-inline my-2 my-lg-0 text-center">
-        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-      </form>
+
 
       <div class="collapse navbar-collapse" id="navbar">
 
         <ul class="navbar-nav text-center ml-auto">
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Categories
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <li><a class="dropdown-item" href="#">Ist Year</a></li>
 
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
-              aria-haspopup="true" aria-expanded="false">
-              Categories.
-            </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="#">First Year</a>
-              <a class="dropdown-item" href="HTML/secondPage.html">Second Year</a>
-              <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="#">Something else here</a>
+                    <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle" href="#">CS</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">2 year</a></li>
+                            <li><a class="dropdown-item" href="#">3 year</a></li>
+                            <li><a class="dropdown-item" href="#">4 year</a></li>
+
+
+
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
           <li class="nav-item">
-            <span id="loginButton"class="nav-link" >Login</span>
+
+                <?php
+                if($_SESSION['loggedin']){
+
+                    echo " <a href='php/login.php' style='color: #c69500' id='loginButton'class='nav-link' >".$_SESSION['username']."</a>";
+                }
+                else{
+                    echo " <a href='php/login.php' id='loginButton'class='nav-link' >Login</a>";
+
+                }
+                ?>
+
           </li>
           <li class="nav-item">
-            <a id="signupButton" class="nav-link" >Signup</a>
+              <?php
+              if($_SESSION['loggedin']){
+               echo '  <a href="php/logout.php" id="signupButton" class="nav-link" >Logout</a>';
+              }
+              else{
+                  echo ' <a href="php/signup.php" id="loginButto"class="nav-link" >Signup</a>';
+              }
+              ?>
+
+
+
+
           </li>
         </ul>
       </div>
@@ -64,46 +133,10 @@
     </div>
   </nav>
 
-
+</header>
 
    <!----------------------------------------------------------------- login modal -------------------------------------------------------------------->
   
-  <div id="loginModal" class="modal fade" role="dialog">
-    <div class="modal-dialog modal-lg" role="document">
-      <div class="modal-content">
-        <div class="modal-header navbar-dark" style="color:white; background-color: rgb(45, 42, 54);">
-          <h4 class="modal-title">Login </h4>
-          <button type="button" class="close" data-dismiss="modal">&times;</button>
-        </div>
-        <div class="modal-body" style="background-color:#eeecf1;">
-          <form>
-            <div class="form-row">
-              <div class="form-group col-sm-4">
-                <label class="sr-only" for="exampleInputEmail3">Email address</label>
-                <input type="email" class="form-control form-control-sm mr-1" id="exampleInputEmail3" placeholder="Enter email">
-              </div>
-              <div class="form-group col-sm-4">
-                <label class="sr-only" for="exampleInputPassword3">Password</label>
-                <input type="password" class="form-control form-control-sm mr-1" id="exampleInputPassword3" placeholder="Password">
-              </div>
-              <div class="col-sm-auto">
-                <div class="form-check">
-                  <input class="form-check-input" type="checkbox">
-                  <label class="form-check-label"> Remember me
-                  </label>
-                </div>
-              </div>
-            </div>
-            <div class="form-row">
-              <button type="button" class="btn btn-secondary btn-sm ml-auto" data-dismiss="modal">Cancel</button>
-              <button type="submit" class="btn btn-primary btn-sm ml-1">Sign in</button>
-            </div>
-          </form>
-        </div>
-      </div>
-    </div>
-  </div>
-
 
   <!------------------------------------------------------------------- login modal ----------------------------------------------------------------------->
  
@@ -115,40 +148,6 @@
  <!--------------------------------------------------------------------- Sign UP modal --------------------------------------------------------------------->
 
  
-
-<div class="modal fade" id="signupModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered" role="document">
-    <div class="modal-content">
-      <div class="modal-header border-bottom-0" style="background-color:rgb(45, 42, 54) ;">
-         <h5 class="modal-title" id="exampleModalLabel" style="color: white;">Create Account</h5>
-         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-         <span aria-hidden="true">&times;</span>
-        </button>
-        
-      </div>
-      <form>
-        <div class="modal-body">
-          <div class="form-group">
-            <label for="email1">Email address</label>
-            <input type="email" class="form-control" id="email1" aria-describedby="emailHelp" placeholder="Enter email">
-            <small id="emailHelp" class="form-text text-muted">Your information is safe with us.</small>
-          </div>
-          <div class="form-group">
-            <label for="password1">Password</label>
-            <input type="password" class="form-control" id="password1" placeholder="Password">
-          </div>
-          <div class="form-group">
-            <label for="password1">Confirm Password</label>
-            <input type="password" class="form-control" id="password2" placeholder="Confirm Password">
-          </div>
-        </div>
-        <div class="modal-footer border-top-0 d-flex justify-content-center">
-          <button type="submit" class="btn btn-success">Submit</button>
-        </div>
-      </form>
-    </div>
-  </div>
-</div>
 
   <!--------------------------------------------------------------------- Sign UP modal --------------------------------------------------------------------->
  
@@ -442,6 +441,44 @@
     crossorigin="anonymous"></script>
 
     <script>
+        $('.dropdown-menu a.dropdown-toggle').on('click', function(e) {
+            if (!$(this).next().hasClass('show')) {
+                $(this).parents('.dropdown-menu').first().find('.show').removeClass("show");
+            }
+            var $subMenu = $(this).next(".dropdown-menu");
+            $subMenu.toggleClass('show');
+
+
+            $(this).parents('li.nav-item.dropdown.show').on('hidden.bs.dropdown', function(e) {
+                $('.dropdown-submenu .show').removeClass("show");
+            });
+
+
+            return false;
+        });
+
+
+
+var a= document.getElementById('preloaded')
+        function stop(){
+    a.style.display='none';
+
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
        $('#loginButton').click(function() {
         $('#loginModal').modal('show');
       });
