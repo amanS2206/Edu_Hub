@@ -51,13 +51,13 @@ session_start();
                     Categories
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                    <li><a class="dropdown-item" href="#">Ist Year</a></li>
+                    <li><a class="dropdown-item" href="https://varunsaxena1332001.github.io/Edu_Hub/HTML/1st_year.html">Ist Year</a></li>
 
                     <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle" href="#">CS</a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">2 year</a></li>
-                            <li><a class="dropdown-item" href="#">3 year</a></li>
-                            <li><a class="dropdown-item" href="#">4 year</a></li>
+                            <li><a class="dropdown-item" href="https://varunsaxena1332001.github.io/Edu_Hub/HTML/CS%20Branch/2nd_year.html">2 year</a></li>
+                            <li><a class="dropdown-item" href="https://varunsaxena1332001.github.io/Edu_Hub/HTML/CS%20Branch/3rd_year.html">3 year</a></li>
+                            <li><a class="dropdown-item" href="https://varunsaxena1332001.github.io/Edu_Hub/HTML/CS%20Branch/4th_year.html">4 year</a></li>
 
 
 
