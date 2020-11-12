@@ -24,8 +24,12 @@ session_start();
   <title>Edu_Hub</title>
 </head>
 
-<body>
+<body onload="stop()">
+<div  id="preloaded">
 
+</div>
+
+<header>
 
   <nav id="nav1" class="navbar navbar-expand-lg navbar-dark bg-dark  ">
     <div class="container">
@@ -129,7 +133,7 @@ session_start();
     </div>
   </nav>
 
-
+</header>
 
    <!----------------------------------------------------------------- login modal -------------------------------------------------------------------->
   
@@ -455,7 +459,11 @@ session_start();
 
 
 
+var a= document.getElementById('preloaded')
+        function stop(){
+    a.style.display='none';
 
+        }
 
 
 

@@ -19,9 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4296b96c-0553-4af5-a808-a43be395cc0f" name="Default Changelist" comment="main page half complete">
-      <change afterPath="$PROJECT_DIR$/HTML/2year.html" afterDir="false" />
+    <list default="true" id="4296b96c-0553-4af5-a808-a43be395cc0f" name="Default Changelist" comment="submenu added.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -96,7 +96,9 @@
       <workItem from="1604914064881" duration="1917000" />
       <workItem from="1604927308602" duration="8000" />
       <workItem from="1605020991593" duration="7788000" />
-      <workItem from="1605118171349" duration="2189000" />
+      <workItem from="1605118171349" duration="3826000" />
+      <workItem from="1605186026794" duration="49000" />
+      <workItem from="1605188701281" duration="1240000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1597839348223</created>
@@ -119,7 +121,21 @@
       <option name="project" value="LOCAL" />
       <updated>1602944606166</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="submenu added.">
+      <created>1605121544223</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1605121544223</updated>
+    </task>
+    <task id="LOCAL-00005" summary="submenu added.">
+      <created>1605121885388</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1605121885388</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -141,7 +157,8 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="update" />
     <MESSAGE value="main page half complete" />
-    <option name="LAST_COMMIT_MESSAGE" value="main page half complete" />
+    <MESSAGE value="submenu added." />
+    <option name="LAST_COMMIT_MESSAGE" value="submenu added." />
   </component>
   <component name="WindowStateProjectService">
     <state x="361" y="27" key="#PHP" timestamp="1603821112144">
@@ -160,10 +177,11 @@
       <screen x="66" y="27" width="1300" height="741" />
     </state>
     <state x="511" y="323" width="399" height="156" key="NewPhpFileDialog/66.27.1300.741@66.27.1300.741" timestamp="1604241316054" />
-    <state x="306" y="132" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1602944611816">
-      <screen x="57" y="27" width="1309" height="741" />
+    <state x="313" y="132" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1605121890716">
+      <screen x="66" y="27" width="1300" height="741" />
     </state>
     <state x="306" y="132" width="800" height="528" key="Vcs.Push.Dialog.v2/57.27.1309.741@57.27.1309.741" timestamp="1602944611816" />
+    <state x="313" y="132" width="800" height="535" key="Vcs.Push.Dialog.v2/66.27.1300.741@66.27.1300.741" timestamp="1605121890716" />
     <state x="380" y="174" key="run.anything.popup" timestamp="1605034146874">
       <screen x="66" y="27" width="1300" height="741" />
     </state>
