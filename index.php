@@ -153,8 +153,8 @@ session_start();
  
 
   <div class="container">
-    <h1 id="h1he">Edu_hub : Get Ready to Learn!</h1>
-    <button id="bty" type="button" class="btn btn-success">Get Started For Free!</button>
+    <h1 id="h1he"></h1>
+
   </div>
 
   <!-- EDU_HUB HEADING--->
@@ -164,7 +164,7 @@ session_start();
 
 
   <!-- Crousel bar-->
-  <div class="container">
+  <div class="container-fluid">
 
     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
       <ol class="carousel-indicators">
@@ -461,9 +461,28 @@ session_start();
 
 var a= document.getElementById('preloaded')
         function stop(){
-    a.style.display='none';
 
         }
+
+
+
+        // this for auto writing:
+
+        var text= document.getElementById('h1he')
+        function write_text(){
+    const  type="Edu_hub : Get Ready to Learn!";
+    let i=0;
+    const typeing= ()=> {
+        if (i < type.length) {
+            text.innerHTML += type.charAt(i)
+            i++
+            setTimeout(typeing,300)
+        }
+    }
+typeing()
+}
+write_text()
+
 
 
 
