@@ -24,8 +24,12 @@ session_start();
   <title>Edu_Hub</title>
 </head>
 
-<body>
+<body onload="stop()">
+<div  id="preloaded">
 
+</div>
+
+<header>
 
   <nav id="nav1" class="navbar navbar-expand-lg navbar-dark bg-dark  ">
     <div class="container">
@@ -37,25 +41,59 @@ session_start();
       </button>
 
 
-      <form class="form-inline my-2 my-lg-0 text-center">
-        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-      </form>
+
 
       <div class="collapse navbar-collapse" id="navbar">
 
         <ul class="navbar-nav text-center ml-auto">
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Categories
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <li><a class="dropdown-item" href="https://varunsaxena1332001.github.io/Edu_Hub/HTML/1st_year.html">Ist Year</a></li>
 
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
-              aria-haspopup="true" aria-expanded="false">
-              Categories.
-            </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="#">First Year</a>
-              <a class="dropdown-item" href="HTML/secondPage.html">Second Year</a>
-              <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="#">Something else here</a>
+                    <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle" href="#">CS</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="https://varunsaxena1332001.github.io/Edu_Hub/HTML/CS%20Branch/2nd_year.html">2 year</a></li>
+                            <li><a class="dropdown-item" href="https://varunsaxena1332001.github.io/Edu_Hub/HTML/CS%20Branch/3rd_year.html">3 year</a></li>
+                            <li><a class="dropdown-item" href="https://varunsaxena1332001.github.io/Edu_Hub/HTML/CS%20Branch/4th_year.html">4 year</a></li>
+
+
+
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -95,7 +133,7 @@ session_start();
     </div>
   </nav>
 
-
+</header>
 
    <!----------------------------------------------------------------- login modal -------------------------------------------------------------------->
   
@@ -115,8 +153,8 @@ session_start();
  
 
   <div class="container">
-    <h1 id="h1he">Edu_hub : Get Ready to Learn!</h1>
-    <button id="bty" type="button" class="btn btn-success">Get Started For Free!</button>
+    <h1 id="h1he"></h1>
+
   </div>
 
   <!-- EDU_HUB HEADING--->
@@ -126,7 +164,7 @@ session_start();
 
 
   <!-- Crousel bar-->
-  <div class="container">
+  <div class="container-fluid">
 
     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
       <ol class="carousel-indicators">
@@ -403,6 +441,63 @@ session_start();
     crossorigin="anonymous"></script>
 
     <script>
+        $('.dropdown-menu a.dropdown-toggle').on('click', function(e) {
+            if (!$(this).next().hasClass('show')) {
+                $(this).parents('.dropdown-menu').first().find('.show').removeClass("show");
+            }
+            var $subMenu = $(this).next(".dropdown-menu");
+            $subMenu.toggleClass('show');
+
+
+            $(this).parents('li.nav-item.dropdown.show').on('hidden.bs.dropdown', function(e) {
+                $('.dropdown-submenu .show').removeClass("show");
+            });
+
+
+            return false;
+        });
+
+
+
+var a= document.getElementById('preloaded')
+        function stop(){
+
+        }
+
+
+
+        // this for auto writing:
+
+        var text= document.getElementById('h1he')
+        function write_text(){
+    const  type="Edu_hub : Get Ready to Learn!";
+    let i=0;
+    const typeing= ()=> {
+        if (i < type.length) {
+            text.innerHTML += type.charAt(i)
+            i++
+            setTimeout(typeing,300)
+        }
+    }
+typeing()
+}
+write_text()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
        $('#loginButton').click(function() {
         $('#loginModal').modal('show');
       });

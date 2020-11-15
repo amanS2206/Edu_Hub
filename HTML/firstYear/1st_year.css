@@ -1,0 +1,209 @@
+.jumbotron{
+    height: 500px;
+    
+}
+
+.jumbo-img{
+    background: url(../../images/yearpage.jpg);
+    background-size: 100% 100%;
+    
+}
+.display-4{
+    color: white;
+}
+.lead{
+    color: white;
+    font-size: 30px;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #eee;
+}
+
+.main-row{
+    margin: 8%;
+    background-color: white;
+    box-shadow: 0 0 10px 10px rgba(0,0,0,.05);
+    border-radius: 0.5rem;
+}
+.blog-img > img{
+    width: 100%;
+    height: 100%;
+    transform: translateY(-30px);
+    object-fit: cover;
+    border-radius: 0.5rem;
+    box-shadow: 0 0 8px 3px rgba(0,0,0,.3);
+}
+.blog-date span{
+    color: #962c51;
+}
+
+.ul-cls{
+    justify-content: center;
+}
+.ul-cls li{
+    cursor: pointer;
+}
+.blog-title > h2{
+    font-style: normal;
+    font-weight: 400;
+}
+
+.blog-desc > p{
+    font-style: normal;
+    line-height: 2;
+}
+
+/* footer css */
+footer h6{
+    font-weight: 300;
+      display: inline-block;
+      padding-bottom: 5px;
+      position: relative;
+  }
+  footer h6:before{
+    content: "";
+    position: absolute;
+    width: 50%;
+    height: 1px;
+    bottom: 0;
+    left: 25%;
+    border-bottom: 1px solid gold;
+  }
+  
+  
+  .footer-social-links{
+    background-color: #2e3a3fd7;
+    margin-top: 50px;
+  }
+  .new-footer{
+    background-color: darkslategrey;
+    color: white;
+    width: 100%;
+  }
+  
+  
+  .social-media{
+    display: flex;
+    justify-content: center;
+    padding: 0px;
+  }
+  .social-media ul{
+    list-style: none;
+    margin: 2px;
+  }
+  .social-media ul li{
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    padding: 20px;
+    background-color: rgb(49, 38, 38);
+    border-radius: 50%;
+    margin-right: 20px;
+  }
+  .social-media ul li i{
+    color: white;
+    font-size: 24px;
+    line-height: 20px;
+    text-align: center;
+  }
+  .social-media ul li:nth-child(1):hover{
+    background-color: #3b5999;
+  }
+  .social-media ul li:nth-child(2):hover{
+    background-color: #55acee;
+  }
+  .social-media ul li:nth-child(3):hover{
+    background-color: #dd4b39;
+  }
+  .social-media ul li:nth-child(4):hover{
+    background-color: #0077B5;
+  }
+  .social-media ul li:nth-child(5):hover{
+    background-color: #ea4c89;
+  }
+  
+  .products p a{
+    color: white;
+    text-decoration: none;
+    position: relative;
+    
+  }
+  .products p a::after{
+    content: '';
+    display: block;
+    position: absolute;
+    width: 0;
+    height: 2px;
+    right: 0;
+    bottom: -10px;
+    background-color: gold;
+    transition: all .3s;
+  }
+  .products p a:hover::after{
+    width: 100%;
+  }
+  
+  .useful-links p a{
+    color:white;
+    text-decoration: none;
+    position: relative;
+  }
+  .useful-links p a::after{
+    content:'';
+    display: block;
+    position: absolute;
+    width: 0;
+    height: 2px;
+    right: 0;
+    bottom: -10px;
+    background-color: gold;
+    transition: all .3s;
+  }
+  
+  .useful-links p a:hover::after{
+    width: 100%;
+  }
+  
+  @media (max-width:500px){
+    .social-media{
+      display: flex;
+      justify-content: center;
+      padding: 0px;
+  }
+  .social-media ul{
+      list-style: none;
+      margin: 2px;
+  }
+  .social-media ul li{
+      display: inline-block;
+      width: 40px;
+      height: 40px;
+      padding: 10px;
+      background-color: rgb(49, 38, 38);
+      border-radius: 50%;
+      margin-right: 10px;
+  }
+  .social-media ul li i{
+      color: white;
+      font-size: 20px;
+      line-height: 20px;
+      text-align: center;
+  }
+  .social-media ul li:nth-child(1):hover{
+      background-color: #3b5999;
+  }
+  .social-media ul li:nth-child(2):hover{
+      background-color: #55acee;
+  }
+  .social-media ul li:nth-child(3):hover{
+      background-color: #dd4b39;
+  }
+  .social-media ul li:nth-child(4):hover{
+      background-color: #0077B5;
+  }
+  .social-media ul li:nth-child(5):hover{
+      background-color: #ea4c89;
+  }
+  
+  }

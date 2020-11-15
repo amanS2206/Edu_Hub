@@ -52,7 +52,7 @@ else{
 
     <title>Hello, world!</title>
 </head>
-<body>
+<body style="background-image: url(../images/d3ecbzg-045f95bb-8610-4dbb-84ab-e1d08fb037d7.jpg);opacity: 0.8">
 <?php
 if($err){
     echo '<div class="alert alert-primary" role="alert">
@@ -69,25 +69,27 @@ if($con_status){
 ?>
 
 
-<div class="container">
+<div class="container" style="opacity: 1.0;background-color: #1b1a1b;margin-top: 50px">
 
-    <h1 class="text-center">Login</h1>
-<form action="login.php" method="post">
+    <h1 class="text-center" style="color: #a71d2a;font-weight: bold">Login</h1>
+<form class="text-center"   action="login.php" method="post">
 
     <div class="form-group">
-        <label for="exampleInputEmail1">Email address</label>
-        <input type="email" class="form-control" name="email_l" id="exampleInputEmail1" aria-describedby="emailHelp">
-        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+        <label for="exampleInputEmail1" style="color: white">Email address</label>
+        <input style="width: 50%;margin: auto" required type="email" class="form-control" name="email_l" id="exampleInputEmail1" aria-describedby="emailHelp">
+
     </div>
     <div class="form-group">
-        <label for="exampleInputPassword1">Password</label>
-        <input type="password" class="form-control" name="pass_l" id="exampleInputPassword1">
+        <label for="exampleInputPassword1" style="color: white">Password</label>
+        <input  style="width: 50%;margin: auto" required type="password" class="form-control" name="pass_l" id="exampleInputPassword1">
     </div>
 
-    <button type="submit" class="btn btn-primary">Submit</button>
+    <button type="submit" class="btn btn-primary" style="margin-bottom: 50px">Submit</button>
+
+
 </form>
 
-
+<p style="color: white"><a href="signup.php" >Don't have account? Click here to signup!</a> </p>
 
 </div>
 <!-- Optional JavaScript; choose one of the two! -->
