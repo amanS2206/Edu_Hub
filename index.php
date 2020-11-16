@@ -8,7 +8,7 @@ session_start();
 
 
 <!doctype html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/html">
 
 <head>
   <!-- Required meta tags -->
@@ -29,9 +29,9 @@ session_start();
 
 </div>
 
-<header>
 
-  <nav id="nav1" class="navbar navbar-expand-lg navbar-dark bg-dark  ">
+<div class="container-fluid" id="main">
+  <nav id="nav1" class="navbar navbar-expand-lg    ">
     <div class="container">
       <a class="navbar-brand" href="index.php"><img id="logo-img" src="images/pp.jpeg" class="img-fluid"></a>
 
@@ -39,7 +39,6 @@ session_start();
       <button class="navbar-toggler" data-toggle="collapse" data-target="#navbar">
         <span class="navbar-toggler-icon"></span>
       </button>
-
 
 
 
@@ -102,10 +101,10 @@ session_start();
                 <?php
                 if($_SESSION['loggedin']){
 
-                    echo " <a href='php/login.php' style='color: #c69500' id='loginButton'class='nav-link' >".$_SESSION['username']."</a>";
+                    echo " <a href='php/login.php' target='_blank' style='color: #c69500' id='loginButton'class='nav-link' >".$_SESSION['username']."</a>";
                 }
                 else{
-                    echo " <a href='php/login.php' id='loginButton'class='nav-link' >Login</a>";
+                    echo " <a href='php/login.php' id='loginButton' target='_blank' class='nav-link' >Login</a>";
 
                 }
                 ?>
@@ -130,10 +129,11 @@ session_start();
 
 
 
-    </div>
+
   </nav>
 
-</header>
+
+
 
    <!----------------------------------------------------------------- login modal -------------------------------------------------------------------->
   
@@ -152,19 +152,13 @@ session_start();
   <!--------------------------------------------------------------------- Sign UP modal --------------------------------------------------------------------->
  
 
-  <div class="container">
+  <div class="container" style="padding: 10px;margin-bottom: 10px">
     <h1 id="h1he"></h1>
 
   </div>
 
-  <!-- EDU_HUB HEADING--->
-
-
-
-
-
-  <!-- Crousel bar-->
-  <div class="container-fluid">
+</div>
+<div class="container-fluid">
 
     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
       <ol class="carousel-indicators">

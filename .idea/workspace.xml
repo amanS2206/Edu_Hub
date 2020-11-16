@@ -19,12 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4296b96c-0553-4af5-a808-a43be395cc0f" name="Default Changelist" comment="preloader is added.">
-      <change afterPath="$PROJECT_DIR$/images/d3ecbzg-045f95bb-8610-4dbb-84ab-e1d08fb037d7.jpg" afterDir="false" />
+    <list default="true" id="4296b96c-0553-4af5-a808-a43be395cc0f" name="Default Changelist" comment="loginpagestyle is  done">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/login.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/php/signup.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/signup.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -105,7 +103,15 @@
       <workItem from="1605118171349" duration="3826000" />
       <workItem from="1605186026794" duration="49000" />
       <workItem from="1605188701281" duration="3093000" />
-      <workItem from="1605265713975" duration="5279000" />
+      <workItem from="1605265713975" duration="5461000" />
+      <workItem from="1605292829551" duration="221000" />
+      <workItem from="1605333830794" duration="809000" />
+      <workItem from="1605526343937" duration="545000" />
+      <workItem from="1605528981756" duration="1449000" />
+      <workItem from="1605531820320" duration="1225000" />
+      <workItem from="1605545437577" duration="22000" />
+      <workItem from="1605545714960" duration="605000" />
+      <workItem from="1605546921677" duration="728000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1597839348223</created>
@@ -149,7 +155,21 @@
       <option name="project" value="LOCAL" />
       <updated>1605190131817</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="loginpagestyle is  done">
+      <created>1605275656928</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1605275656928</updated>
+    </task>
+    <task id="LOCAL-00008" summary="loginpagestyle is  done">
+      <created>1605275661732</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1605275661732</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -173,7 +193,8 @@
     <MESSAGE value="main page half complete" />
     <MESSAGE value="submenu added." />
     <MESSAGE value="preloader is added." />
-    <option name="LAST_COMMIT_MESSAGE" value="preloader is added." />
+    <MESSAGE value="loginpagestyle is  done" />
+    <option name="LAST_COMMIT_MESSAGE" value="loginpagestyle is  done" />
   </component>
   <component name="WindowStateProjectService">
     <state x="361" y="27" key="#PHP" timestamp="1603821112144">
@@ -184,19 +205,19 @@
       <screen x="66" y="27" width="1300" height="741" />
     </state>
     <state x="311" y="59" width="800" height="684" key="#com.intellij.execution.impl.EditConfigurationsDialog/66.27.1300.741@66.27.1300.741" timestamp="1603820571379" />
-    <state x="166" y="127" width="1100" height="541" key="DiffContextDialog" timestamp="1605118632396">
+    <state x="166" y="127" width="1100" height="541" key="DiffContextDialog" timestamp="1605526891128">
       <screen x="66" y="27" width="1300" height="741" />
     </state>
-    <state x="166" y="127" width="1100" height="541" key="DiffContextDialog/66.27.1300.741@66.27.1300.741" timestamp="1605118632396" />
+    <state x="166" y="127" width="1100" height="541" key="DiffContextDialog/66.27.1300.741@66.27.1300.741" timestamp="1605526891128" />
     <state x="511" y="323" width="399" height="156" key="NewPhpFileDialog" timestamp="1604241316054">
       <screen x="66" y="27" width="1300" height="741" />
     </state>
     <state x="511" y="323" width="399" height="156" key="NewPhpFileDialog/66.27.1300.741@66.27.1300.741" timestamp="1604241316054" />
-    <state x="313" y="132" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1605190138949">
+    <state x="313" y="132" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1605275668153">
       <screen x="66" y="27" width="1300" height="741" />
     </state>
     <state x="306" y="132" width="800" height="528" key="Vcs.Push.Dialog.v2/57.27.1309.741@57.27.1309.741" timestamp="1602944611816" />
-    <state x="313" y="132" width="800" height="535" key="Vcs.Push.Dialog.v2/66.27.1300.741@66.27.1300.741" timestamp="1605190138949" />
+    <state x="313" y="132" width="800" height="535" key="Vcs.Push.Dialog.v2/66.27.1300.741@66.27.1300.741" timestamp="1605275668153" />
     <state x="380" y="174" key="run.anything.popup" timestamp="1605034146874">
       <screen x="66" y="27" width="1300" height="741" />
     </state>

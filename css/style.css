@@ -132,9 +132,9 @@
 
 
 }
-body{
+#main{
     background:no-repeat, url("../images/apple-1853259_1280.jpg");
-
+opacity: 0.7;
 }
 
 #pageloader{
@@ -155,11 +155,11 @@ no-repeat center;
 }
 
 #nav1{
-  background-color: #ffc107;
+
   border:0px;
   border-radius: 0px;
   margin-bottom: 15px;
-    opacity: 0.8;
+
 }
 /* for heading */
 #h1he{
