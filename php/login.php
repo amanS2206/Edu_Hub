@@ -50,7 +50,7 @@ else{
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
 
-    <title>Hello, world!</title>
+    <title>Log in</title>
 </head>
 <body style="background-image: url(../images/d3ecbzg-045f95bb-8610-4dbb-84ab-e1d08fb037d7.jpg);opacity: 0.8">
 <?php

@@ -132,9 +132,9 @@
 
 
 }
-body{
+#main{
     background:no-repeat, url("../images/apple-1853259_1280.jpg");
-
+opacity: 0.8;
 }
 
 #pageloader{
@@ -155,11 +155,11 @@ no-repeat center;
 }
 
 #nav1{
-  background-color: #ffc107;
+
   border:0px;
   border-radius: 0px;
   margin-bottom: 15px;
-    opacity: 0.8;
+
 }
 /* for heading */
 #h1he{
@@ -167,6 +167,7 @@ no-repeat center;
   font-size: 5vw;
   color: #dc3545;
     margin-bottom: 70px;
+
 
 }
 #bty{
@@ -176,7 +177,16 @@ margin-left: 30vw;
     box-shadow: #7abaff;
 
 }
+a{
 
+    font-size: 25px;
+    color: green;
+    font-weight: bold;
+}
+a:hover{
+    color: yellow;
+    font-size: 25px
+}
 
 
 
