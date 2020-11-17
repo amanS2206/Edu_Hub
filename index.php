@@ -36,8 +36,8 @@ session_start();
       <a class="navbar-brand" href="index.php"><img id="logo-img" src="images/pp.jpeg" class="img-fluid"></a>
 
 
-      <button class="navbar-toggler" data-toggle="collapse" data-target="#navbar">
-        <span class="navbar-toggler-icon"></span>
+      <button class="navbar-toggler" data-toggle="collapse" data-target="#navbar" style="background-color: #1b1a1b;border: 2px solid crimson">
+        <span class="navbar-toggler-icon" style="color: black;background-color: white"></span>
       </button>
 
 
@@ -50,13 +50,13 @@ session_start();
                     Categories
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                    <li><a class="dropdown-item" href="https://varunsaxena1332001.github.io/Edu_Hub/HTML/1st_year.html">Ist Year</a></li>
+                    <li><a class="dropdown-item" href="HTML/firstYear/1st_year.html">Ist Year</a></li>
 
                     <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle" href="#">CS</a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="https://varunsaxena1332001.github.io/Edu_Hub/HTML/CS%20Branch/2nd_year.html">2 year</a></li>
-                            <li><a class="dropdown-item" href="https://varunsaxena1332001.github.io/Edu_Hub/HTML/CS%20Branch/3rd_year.html">3 year</a></li>
-                            <li><a class="dropdown-item" href="https://varunsaxena1332001.github.io/Edu_Hub/HTML/CS%20Branch/4th_year.html">4 year</a></li>
+                            <li><a class="dropdown-item" href="HTML/firstYear/2nd_semester.html">2 year</a></li>
+                            <li><a class="dropdown-item" href="HTML/CS%20Branch/3rd_year.html">3 year</a></li>
+                            <li><a class="dropdown-item" href="HTML/CS%20Branch/4th_year.html">4 year</a></li>
 
 
 

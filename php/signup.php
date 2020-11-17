@@ -3,8 +3,10 @@ $server="127.0.0.1";
 $user ="root";
 $password ="";
 $database = "edu_hub";
+$len_password=false;
 $con_stat=false;
-$con_stat=false;
+$con_stat1=false;
+
 $con = mysqli_connect($server,$user,$password,$database);
 
 if($con ) {
@@ -21,29 +23,33 @@ if($con ) {
         $sql_1 = "SELECT * FROM `data` WHERE email= '$username' ";
         $res_1 = mysqli_query($con, $sql_1);
         $check_1 = mysqli_num_rows($res_1);
-        echo $check_1;
+
         if ($check_1) {
             $showalert = true;
         } else {
+if(strlen($pass)>5) {
+    if ($pass === $cpass) {
 
-            if ($pass === $cpass) {
-                $sql = "INSERT INTO `data` (`email`, `password`) VALUES ('$username', '$pass')";
-                $res = mysqli_query($con, $sql);
-                if ($res) {
-                    header('location:login.php');
-                } else {
-                    $wrong_p = true;
-                }
+        $sql = "INSERT INTO `data` (`email`, `password`) VALUES ('$username', '$pass')";
+        $res = mysqli_query($con, $sql);
+        if ($res) {
+            header('location:login.php');
+        } else {
+            $wrong_p = true;
+        }
 
-            }
+    }
+}
+else{
 
-
+    $len_password=true;
+}
         }
     }
     $con_stat=true;
 }
 else{
-    $con_stat=true;
+    $con_stat1=true;
 }
 
 
@@ -73,7 +79,7 @@ else{
 </head>
 <body  style="background-image: url(../images/d3ecbzg-045f95bb-8610-4dbb-84ab-e1d08fb037d7.jpg);opacity: 0.8">
 <?php
-if($con_stat){
+if($con_stat1){
 
      echo '<div class="alert alert-primary" role="alert">
   Check your server ! It is not connected!.
@@ -88,7 +94,11 @@ else if($showalert){
 </div>';
 }
 
-
+else if($len_password){
+    echo '<div class="alert alert-primary" role="alert">
+  length of password at least five!
+</div>';
+}
 
 
 else if($wrong_p){
