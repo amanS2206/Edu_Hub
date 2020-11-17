@@ -24,7 +24,7 @@ session_start();
   <title>Edu_Hub</title>
 </head>
 
-<body onload="stop()">
+<body onload="stop()" style="background-color: #b8daff">
 <div  id="preloaded">
 
 </div>
@@ -152,7 +152,7 @@ session_start();
   <!--------------------------------------------------------------------- Sign UP modal --------------------------------------------------------------------->
  
 
-  <div class="container" style="padding: 10px;margin-bottom: 10px">
+  <div class="container" style="padding: 20px;margin-bottom: 20px">
     <h1 id="h1he"></h1>
 
   </div>
@@ -167,21 +167,31 @@ session_start();
         <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
       </ol>
       <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img src="images/above-art-background-733852.jpg" class="cra" alt="...">
+
+          <div class="carousel-item active">
+              <a href="https://www.youtube.com/watch?v=YnJNAXIFJ2E" target="_blank">
+              <img src="images/coding.jpg" class="cra" alt="...">
+              </a>
+          </div>
+        <div class="carousel-item ">
+            <a href="https://www.youtube.com/watch?v=YnJNAXIFJ2E" target="_blank">
+          <img src="images/cs.jpg" class="cra" alt="...">
+            </a>
         </div>
+
         <div class="carousel-item">
-          <img src="images/cellphone-electronics-facebook-744464.jpg" class="cra" alt="...">
+            <a href="https://interestingengineering.com/10-best-engineering-youtube-channels" target="_blank">
+                <img src="images/engineering_youtube_channel-1_md.jpg" class="cra" alt="...">
+            </a>
         </div>
-        <div class="carousel-item">
-          <img src="images/harvard-study-tips-1.jpg" class="cra" alt="...">
-        </div>
+
+
       </div>
-      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+      <a class="carousel-control-prev" href="#carouselExampleIndicators"  style="color: #1b1a1b;background-color: #1b1a1b;opacity: 0.5" role="button" data-slide="prev">
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
+        <span class="sr-only" >Previous</span>
       </a>
-      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+      <a class="carousel-control-next" href="#carouselExampleIndicators"   style="color: #1b1a1b;background-color: #1b1a1b;opacity: 0.5" role="button" data-slide="next">
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
         <span class="sr-only">Next</span>
       </a>
@@ -388,7 +398,7 @@ session_start();
             <p>
               <i class="fas fa-home mr-3"></i> Allipur , Allahabad</p>
             <p>
-              <i class="fas fa-envelope mr-3"></i>akshat.sinha_cs18@gla.ac.in</p>
+              <i class="fas fa-envelope mr-3"></i>edu_hub@gmail.com</p>
             <p>
               <i class="fas fa-phone mr-3"></i> 64946645312</p>
             <p>
@@ -465,10 +475,12 @@ var a= document.getElementById('preloaded')
         var text= document.getElementById('h1he')
         function write_text(){
     const  type="Edu_hub : Get Ready to Learn!";
+
     let i=0;
     const typeing= ()=> {
         if (i < type.length) {
             text.innerHTML += type.charAt(i)
+
             i++
             setTimeout(typeing,300)
         }

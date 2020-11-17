@@ -168,6 +168,7 @@ no-repeat center;
   color: #dc3545;
     margin-bottom: 70px;
 
+
 }
 #bty{
   margin-top: 5vw;
@@ -178,11 +179,12 @@ margin-left: 30vw;
 }
 a{
 
-    font-size: 20px;
-    color: #c69500;
+    font-size: 25px;
+    color: green;
+    font-weight: bold;
 }
 a:hover{
-    color: #002752;
+    color: yellow;
     font-size: 25px
 }
 
