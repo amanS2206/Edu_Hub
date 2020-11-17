@@ -19,14 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4296b96c-0553-4af5-a808-a43be395cc0f" name="Default Changelist" comment="modifiaction at backend.">
-      <change afterPath="$PROJECT_DIR$/images/Screenshot from 2020-10-28 19-22-04.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/coding.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/cs.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/engineering_youtube_channel-1_md.jpg" afterDir="false" />
+    <list default="true" id="4296b96c-0553-4af5-a808-a43be395cc0f" name="Default Changelist" comment="crousel is modified.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/about us.html" beforeDir="false" afterPath="$PROJECT_DIR$/about us.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML/CS Branch/3rd_year.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML/CS Branch/3rd_year.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -117,7 +112,13 @@
       <workItem from="1605545714960" duration="605000" />
       <workItem from="1605546921677" duration="1242000" />
       <workItem from="1605595834705" duration="4150000" />
-      <workItem from="1605603733965" duration="4608000" />
+      <workItem from="1605603733965" duration="4862000" />
+      <workItem from="1605614095363" duration="92000" />
+      <workItem from="1605621948705" duration="344000" />
+      <workItem from="1605624666679" duration="1621000" />
+      <workItem from="1605634833645" duration="64000" />
+      <workItem from="1605636096541" duration="109000" />
+      <workItem from="1605636293433" duration="14000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1597839348223</created>
@@ -189,7 +190,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605601661715</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="crousel is modified.">
+      <created>1605609339191</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1605609339191</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -215,7 +223,8 @@
     <MESSAGE value="preloader is added." />
     <MESSAGE value="loginpagestyle is  done" />
     <MESSAGE value="modifiaction at backend." />
-    <option name="LAST_COMMIT_MESSAGE" value="modifiaction at backend." />
+    <MESSAGE value="crousel is modified." />
+    <option name="LAST_COMMIT_MESSAGE" value="crousel is modified." />
   </component>
   <component name="WindowStateProjectService">
     <state x="361" y="27" key="#PHP" timestamp="1603821112144">
@@ -234,11 +243,11 @@
       <screen x="66" y="27" width="1300" height="741" />
     </state>
     <state x="511" y="323" width="399" height="156" key="NewPhpFileDialog/66.27.1300.741@66.27.1300.741" timestamp="1604241316054" />
-    <state x="313" y="132" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1605601670769">
+    <state x="313" y="132" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1605609354993">
       <screen x="66" y="27" width="1300" height="741" />
     </state>
     <state x="306" y="132" width="800" height="528" key="Vcs.Push.Dialog.v2/57.27.1309.741@57.27.1309.741" timestamp="1602944611816" />
-    <state x="313" y="132" width="800" height="535" key="Vcs.Push.Dialog.v2/66.27.1300.741@66.27.1300.741" timestamp="1605601670769" />
+    <state x="313" y="132" width="800" height="535" key="Vcs.Push.Dialog.v2/66.27.1300.741@66.27.1300.741" timestamp="1605609354993" />
     <state x="380" y="174" key="run.anything.popup" timestamp="1605034146874">
       <screen x="66" y="27" width="1300" height="741" />
     </state>
