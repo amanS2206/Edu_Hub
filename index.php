@@ -288,7 +288,7 @@ session_start();
 
           <!-- Grid column -->
           <div class="col-md-6 col-lg-5 text-center text-md-left mb-4 mb-md-0">
-            <h5 class="mb-0">Get connected with us on social networks!</h5>
+            <h5 class="mb-0" style="color:white;">Get connected with us on social networks!</h5>
           </div>
           <!-- Grid column -->
 
