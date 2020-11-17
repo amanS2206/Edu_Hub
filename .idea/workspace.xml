@@ -6,28 +6,12 @@
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
       </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
     </expand>
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4296b96c-0553-4af5-a808-a43be395cc0f" name="Default Changelist" comment="modifiaction at backend.">
-      <change afterPath="$PROJECT_DIR$/images/Screenshot from 2020-10-28 19-22-04.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/coding.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/cs.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/engineering_youtube_channel-1_md.jpg" afterDir="false" />
+    <list default="true" id="4296b96c-0553-4af5-a808-a43be395cc0f" name="Default Changelist" comment="main page half complete">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/about us.html" beforeDir="false" afterPath="$PROJECT_DIR$/about us.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,18 +20,6 @@
   </component>
   <component name="ComposerSettings">
     <execution />
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="JavaScript File" />
-        <option value="HTML File" />
-        <option value="CSS File" />
-      </list>
-    </option>
-  </component>
-  <component name="Git.Pull.Settings">
-    <option name="BRANCH" value="master" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -63,14 +35,8 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
-    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="DatabaseDriversLRU" value="mysql" />
-    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="list.type.of.created.stylesheet" value="CSS" />
-    <property name="nodejs_package_manager_path" value="npm" />
-    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -88,36 +54,6 @@
       <workItem from="1597909492690" duration="2590000" />
       <workItem from="1597914218065" duration="2910000" />
       <workItem from="1597921954190" duration="293000" />
-      <workItem from="1602940446354" duration="2933000" />
-      <workItem from="1602945764665" duration="309000" />
-      <workItem from="1603718956695" duration="659000" />
-      <workItem from="1603819341093" duration="209000" />
-      <workItem from="1603819695569" duration="4822000" />
-      <workItem from="1603905233171" duration="499000" />
-      <workItem from="1604228030798" duration="871000" />
-      <workItem from="1604229266751" duration="151000" />
-      <workItem from="1604229421421" duration="4204000" />
-      <workItem from="1604238067891" duration="8647000" />
-      <workItem from="1604388732708" duration="610000" />
-      <workItem from="1604756939718" duration="1725000" />
-      <workItem from="1604846869825" duration="55000" />
-      <workItem from="1604914064881" duration="1917000" />
-      <workItem from="1604927308602" duration="8000" />
-      <workItem from="1605020991593" duration="7788000" />
-      <workItem from="1605118171349" duration="3826000" />
-      <workItem from="1605186026794" duration="49000" />
-      <workItem from="1605188701281" duration="3093000" />
-      <workItem from="1605265713975" duration="5461000" />
-      <workItem from="1605292829551" duration="221000" />
-      <workItem from="1605333830794" duration="809000" />
-      <workItem from="1605526343937" duration="545000" />
-      <workItem from="1605528981756" duration="1449000" />
-      <workItem from="1605531820320" duration="1225000" />
-      <workItem from="1605545437577" duration="22000" />
-      <workItem from="1605545714960" duration="605000" />
-      <workItem from="1605546921677" duration="1242000" />
-      <workItem from="1605595834705" duration="4150000" />
-      <workItem from="1605603733965" duration="4608000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1597839348223</created>
@@ -134,62 +70,27 @@
       <updated>1597843240441</updated>
     </task>
     <task id="LOCAL-00003" summary="main page half complete">
-      <created>1602944606166</created>
+      <created>1605635586861</created>
       <option name="number" value="00003" />
       <option name="presentableId" value="LOCAL-00003" />
       <option name="project" value="LOCAL" />
-      <updated>1602944606166</updated>
+      <updated>1605635586861</updated>
     </task>
-    <task id="LOCAL-00004" summary="submenu added.">
-      <created>1605121544223</created>
+    <task id="LOCAL-00004" summary="main page half complete">
+      <created>1605635591889</created>
       <option name="number" value="00004" />
       <option name="presentableId" value="LOCAL-00004" />
       <option name="project" value="LOCAL" />
-      <updated>1605121544223</updated>
+      <updated>1605635591889</updated>
     </task>
-    <task id="LOCAL-00005" summary="submenu added.">
-      <created>1605121885388</created>
+    <task id="LOCAL-00005" summary="main page half complete">
+      <created>1605635610152</created>
       <option name="number" value="00005" />
       <option name="presentableId" value="LOCAL-00005" />
       <option name="project" value="LOCAL" />
-      <updated>1605121885388</updated>
+      <updated>1605635610152</updated>
     </task>
-    <task id="LOCAL-00006" summary="preloader is added.">
-      <created>1605190131817</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1605190131817</updated>
-    </task>
-    <task id="LOCAL-00007" summary="loginpagestyle is  done">
-      <created>1605275656928</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1605275656928</updated>
-    </task>
-    <task id="LOCAL-00008" summary="loginpagestyle is  done">
-      <created>1605275661732</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1605275661732</updated>
-    </task>
-    <task id="LOCAL-00009" summary="modifiaction at backend.">
-      <created>1605547887676</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1605547887677</updated>
-    </task>
-    <task id="LOCAL-00010" summary="modifiaction at backend.">
-      <created>1605601661715</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1605601661715</updated>
-    </task>
-    <option name="localTasksCounter" value="11" />
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -211,38 +112,25 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="update" />
     <MESSAGE value="main page half complete" />
-    <MESSAGE value="submenu added." />
-    <MESSAGE value="preloader is added." />
-    <MESSAGE value="loginpagestyle is  done" />
-    <MESSAGE value="modifiaction at backend." />
-    <option name="LAST_COMMIT_MESSAGE" value="modifiaction at backend." />
+    <option name="LAST_COMMIT_MESSAGE" value="main page half complete" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="361" y="27" key="#PHP" timestamp="1603821112144">
+    <state x="361" y="27" width="700" height="741" key="#PHP" timestamp="1605635733797">
       <screen x="66" y="27" width="1300" height="741" />
     </state>
-    <state x="361" y="27" key="#PHP/66.27.1300.741@66.27.1300.741" timestamp="1603821112144" />
-    <state x="311" y="59" width="800" height="684" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603820571379">
+    <state x="361" y="27" width="700" height="741" key="#PHP/66.27.1300.741@66.27.1300.741" timestamp="1605635733797" />
+    <state x="186" y="90" width="1040" height="629" key="MergeDialog" timestamp="1605635690872">
       <screen x="66" y="27" width="1300" height="741" />
     </state>
-    <state x="311" y="59" width="800" height="684" key="#com.intellij.execution.impl.EditConfigurationsDialog/66.27.1300.741@66.27.1300.741" timestamp="1603820571379" />
-    <state x="166" y="127" width="1100" height="541" key="DiffContextDialog" timestamp="1605526891128">
+    <state x="186" y="90" width="1040" height="629" key="MergeDialog/66.27.1300.741@66.27.1300.741" timestamp="1605635690872" />
+    <state x="347" y="160" width="728" height="482" key="MultipleFileMergeDialog" timestamp="1605635690875">
       <screen x="66" y="27" width="1300" height="741" />
     </state>
-    <state x="166" y="127" width="1100" height="541" key="DiffContextDialog/66.27.1300.741@66.27.1300.741" timestamp="1605526891128" />
-    <state x="511" y="323" width="399" height="156" key="NewPhpFileDialog" timestamp="1604241316054">
-      <screen x="66" y="27" width="1300" height="741" />
+    <state x="347" y="160" width="728" height="482" key="MultipleFileMergeDialog/66.27.1300.741@66.27.1300.741" timestamp="1605635690875" />
+    <state x="306" y="132" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1597839364133">
+      <screen x="57" y="27" width="1309" height="741" />
     </state>
-    <state x="511" y="323" width="399" height="156" key="NewPhpFileDialog/66.27.1300.741@66.27.1300.741" timestamp="1604241316054" />
-    <state x="313" y="132" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1605601670769">
-      <screen x="66" y="27" width="1300" height="741" />
-    </state>
-    <state x="306" y="132" width="800" height="528" key="Vcs.Push.Dialog.v2/57.27.1309.741@57.27.1309.741" timestamp="1602944611816" />
-    <state x="313" y="132" width="800" height="535" key="Vcs.Push.Dialog.v2/66.27.1300.741@66.27.1300.741" timestamp="1605601670769" />
-    <state x="380" y="174" key="run.anything.popup" timestamp="1605034146874">
-      <screen x="66" y="27" width="1300" height="741" />
-    </state>
-    <state x="380" y="174" key="run.anything.popup/66.27.1300.741@66.27.1300.741" timestamp="1605034146874" />
+    <state x="306" y="132" width="800" height="528" key="Vcs.Push.Dialog.v2/57.27.1309.741@57.27.1309.741" timestamp="1597839364133" />
     <state x="374" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1597910306857">
       <screen x="57" y="27" width="1309" height="741" />
     </state>
