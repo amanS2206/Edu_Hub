@@ -349,7 +349,7 @@ session_start();
                 <a href="#">First Year</a>
               </p>
               <p>
-                <a href="HTML/secondPage.html">Second Year</a>
+                <a href="HTML/firstYear/2nd_semester.html">Second Year</a>
               </p>
               <p>
                 <a href="#">Third Year</a>

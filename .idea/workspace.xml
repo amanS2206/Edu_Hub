@@ -6,12 +6,22 @@
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
       </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
     </expand>
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4296b96c-0553-4af5-a808-a43be395cc0f" name="Default Changelist" comment="main page half complete">
+    <list default="true" id="4296b96c-0553-4af5-a808-a43be395cc0f" name="Default Changelist" comment="crousel is modified.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +30,9 @@
   </component>
   <component name="ComposerSettings">
     <execution />
+  </component>
+  <component name="Git.Pull.Settings">
+    <option name="BRANCH" value="master" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -37,6 +50,7 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -54,6 +68,11 @@
       <workItem from="1597909492690" duration="2590000" />
       <workItem from="1597914218065" duration="2910000" />
       <workItem from="1597921954190" duration="293000" />
+      <workItem from="1605640671167" duration="7000" />
+      <workItem from="1605685158532" duration="842000" />
+      <workItem from="1605719559428" duration="1278000" />
+      <workItem from="1605766001460" duration="671000" />
+      <workItem from="1605796082511" duration="1306000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1597839348223</created>
@@ -119,14 +138,18 @@
       <screen x="66" y="27" width="1300" height="741" />
     </state>
     <state x="361" y="27" width="700" height="741" key="#PHP/66.27.1300.741@66.27.1300.741" timestamp="1605635733797" />
+    <state x="166" y="127" width="1100" height="541" key="DiffContextDialog" timestamp="1605799914581">
+      <screen x="66" y="27" width="1300" height="741" />
+    </state>
+    <state x="166" y="127" width="1100" height="541" key="DiffContextDialog/66.27.1300.741@66.27.1300.741" timestamp="1605799914581" />
     <state x="186" y="90" width="1040" height="629" key="MergeDialog" timestamp="1605635690872">
       <screen x="66" y="27" width="1300" height="741" />
     </state>
     <state x="186" y="90" width="1040" height="629" key="MergeDialog/66.27.1300.741@66.27.1300.741" timestamp="1605635690872" />
-    <state x="347" y="160" width="728" height="482" key="MultipleFileMergeDialog" timestamp="1605635690875">
+    <state x="347" y="160" width="728" height="482" key="MultipleFileMergeDialog" timestamp="1605685211943">
       <screen x="66" y="27" width="1300" height="741" />
     </state>
-    <state x="347" y="160" width="728" height="482" key="MultipleFileMergeDialog/66.27.1300.741@66.27.1300.741" timestamp="1605635690875" />
+    <state x="347" y="160" width="728" height="482" key="MultipleFileMergeDialog/66.27.1300.741@66.27.1300.741" timestamp="1605685211943" />
     <state x="306" y="132" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1597839364133">
       <screen x="57" y="27" width="1309" height="741" />
     </state>
