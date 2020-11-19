@@ -54,8 +54,8 @@ session_start();
 
                     <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle" href="#">CS</a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="HTML/firstYear/2nd_semester.html">2 year</a></li>
-                            <li><a class="dropdown-item" href="HTML/CS Branch/3rd_year.php">3 year</a></li>
+                            <li><a class="dropdown-item" href="secondyear/secondYear.html">2 year</a></li>
+                            <li><a class="dropdown-item" href="HTML/CS%20Branch/3rd_year.html">3 year</a></li>
                             <li><a class="dropdown-item" href="HTML/CS%20Branch/4th_year.html">4 year</a></li>
 
 
@@ -349,7 +349,7 @@ session_start();
                 <a href="#">First Year</a>
               </p>
               <p>
-                <a href="HTML/firstYear/2nd_semester.html">Second Year</a>
+                <a href="HTML/secondPage.html">Second Year</a>
               </p>
               <p>
                 <a href="#">Third Year</a>
