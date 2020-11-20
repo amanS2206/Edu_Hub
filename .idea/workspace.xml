@@ -6,12 +6,34 @@
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
       </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
     </expand>
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4296b96c-0553-4af5-a808-a43be395cc0f" name="Default Changelist" comment="main page half complete">
+    <list default="true" id="4296b96c-0553-4af5-a808-a43be395cc0f" name="Default Changelist" comment="crousel is modified.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML/CS Branch/3rd_year.php" beforeDir="false" afterPath="$PROJECT_DIR$/HTML/CS Branch/3rd_year.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML/CS Branch/4th_year.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML/CS Branch/4th_year.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML/CS Branch/Fourth Year/7th_semester.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML/CS Branch/Fourth Year/7th_semester.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML/CS Branch/Fourth Year/8th_semester.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML/CS Branch/Fourth Year/8th_semester.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML/CS Branch/Third Year/5th_semester.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML/CS Branch/Third Year/5th_semester.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML/CS Branch/Third Year/6th_semester.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML/CS Branch/Third Year/6th_semester.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML/firstYear/1st_semester.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML/firstYear/1st_semester.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML/firstYear/1st_year.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML/firstYear/1st_year.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML/firstYear/2nd_semester.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML/firstYear/2nd_semester.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/secondyear/secondYear.html" beforeDir="false" afterPath="$PROJECT_DIR$/secondyear/secondYear.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/secondyear/semester3.html" beforeDir="false" afterPath="$PROJECT_DIR$/secondyear/semester3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/secondyear/semester4.html" beforeDir="false" afterPath="$PROJECT_DIR$/secondyear/semester4.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +42,9 @@
   </component>
   <component name="ComposerSettings">
     <execution />
+  </component>
+  <component name="Git.Pull.Settings">
+    <option name="BRANCH" value="master" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -37,6 +62,7 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -54,6 +80,14 @@
       <workItem from="1597909492690" duration="2590000" />
       <workItem from="1597914218065" duration="2910000" />
       <workItem from="1597921954190" duration="293000" />
+      <workItem from="1605640671167" duration="7000" />
+      <workItem from="1605685158532" duration="842000" />
+      <workItem from="1605719559428" duration="1278000" />
+      <workItem from="1605766001460" duration="671000" />
+      <workItem from="1605796082511" duration="4857000" />
+      <workItem from="1605808378569" duration="1238000" />
+      <workItem from="1605813165508" duration="1537000" />
+      <workItem from="1605855911891" duration="1552000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1597839348223</created>
@@ -90,7 +124,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605635610152</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="crousel is modified.">
+      <created>1605799947250</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1605799947250</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -112,25 +153,31 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="update" />
     <MESSAGE value="main page half complete" />
-    <option name="LAST_COMMIT_MESSAGE" value="main page half complete" />
+    <MESSAGE value="crousel is modified." />
+    <option name="LAST_COMMIT_MESSAGE" value="crousel is modified." />
   </component>
   <component name="WindowStateProjectService">
     <state x="361" y="27" width="700" height="741" key="#PHP" timestamp="1605635733797">
       <screen x="66" y="27" width="1300" height="741" />
     </state>
     <state x="361" y="27" width="700" height="741" key="#PHP/66.27.1300.741@66.27.1300.741" timestamp="1605635733797" />
+    <state x="166" y="127" width="1100" height="541" key="DiffContextDialog" timestamp="1605799914581">
+      <screen x="66" y="27" width="1300" height="741" />
+    </state>
+    <state x="166" y="127" width="1100" height="541" key="DiffContextDialog/66.27.1300.741@66.27.1300.741" timestamp="1605799914581" />
     <state x="186" y="90" width="1040" height="629" key="MergeDialog" timestamp="1605635690872">
       <screen x="66" y="27" width="1300" height="741" />
     </state>
     <state x="186" y="90" width="1040" height="629" key="MergeDialog/66.27.1300.741@66.27.1300.741" timestamp="1605635690872" />
-    <state x="347" y="160" width="728" height="482" key="MultipleFileMergeDialog" timestamp="1605635690875">
+    <state x="347" y="160" width="728" height="482" key="MultipleFileMergeDialog" timestamp="1605799980000">
       <screen x="66" y="27" width="1300" height="741" />
     </state>
-    <state x="347" y="160" width="728" height="482" key="MultipleFileMergeDialog/66.27.1300.741@66.27.1300.741" timestamp="1605635690875" />
-    <state x="306" y="132" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1597839364133">
-      <screen x="57" y="27" width="1309" height="741" />
+    <state x="347" y="160" width="728" height="482" key="MultipleFileMergeDialog/66.27.1300.741@66.27.1300.741" timestamp="1605799980000" />
+    <state x="313" y="132" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1605799957312">
+      <screen x="66" y="27" width="1300" height="741" />
     </state>
     <state x="306" y="132" width="800" height="528" key="Vcs.Push.Dialog.v2/57.27.1309.741@57.27.1309.741" timestamp="1597839364133" />
+    <state x="313" y="132" key="Vcs.Push.Dialog.v2/66.27.1300.741@66.27.1300.741" timestamp="1605799957312" />
     <state x="374" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1597910306857">
       <screen x="57" y="27" width="1309" height="741" />
     </state>
