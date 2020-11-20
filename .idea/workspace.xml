@@ -19,21 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4296b96c-0553-4af5-a808-a43be395cc0f" name="Default Changelist" comment="crousel is modified.">
+    <list default="true" id="4296b96c-0553-4af5-a808-a43be395cc0f" name="Default Changelist" comment="Project is done">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML/CS Branch/3rd_year.php" beforeDir="false" afterPath="$PROJECT_DIR$/HTML/CS Branch/3rd_year.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML/CS Branch/4th_year.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML/CS Branch/4th_year.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML/CS Branch/Fourth Year/7th_semester.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML/CS Branch/Fourth Year/7th_semester.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML/CS Branch/Fourth Year/8th_semester.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML/CS Branch/Fourth Year/8th_semester.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML/CS Branch/Third Year/5th_semester.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML/CS Branch/Third Year/5th_semester.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML/CS Branch/Third Year/6th_semester.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML/CS Branch/Third Year/6th_semester.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML/firstYear/1st_semester.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML/firstYear/1st_semester.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML/firstYear/1st_year.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML/firstYear/1st_year.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML/firstYear/2nd_semester.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML/firstYear/2nd_semester.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/secondyear/secondYear.html" beforeDir="false" afterPath="$PROJECT_DIR$/secondyear/secondYear.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/secondyear/semester3.html" beforeDir="false" afterPath="$PROJECT_DIR$/secondyear/semester3.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/secondyear/semester4.html" beforeDir="false" afterPath="$PROJECT_DIR$/secondyear/semester4.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,7 +74,8 @@
       <workItem from="1605796082511" duration="4857000" />
       <workItem from="1605808378569" duration="1238000" />
       <workItem from="1605813165508" duration="1537000" />
-      <workItem from="1605855911891" duration="1552000" />
+      <workItem from="1605855911891" duration="1752000" />
+      <workItem from="1605868118679" duration="490000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1597839348223</created>
@@ -131,7 +119,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605799947250</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Project is done">
+      <created>1605857568361</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1605857568361</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -154,7 +149,8 @@
     <MESSAGE value="update" />
     <MESSAGE value="main page half complete" />
     <MESSAGE value="crousel is modified." />
-    <option name="LAST_COMMIT_MESSAGE" value="crousel is modified." />
+    <MESSAGE value="Project is done" />
+    <option name="LAST_COMMIT_MESSAGE" value="Project is done" />
   </component>
   <component name="WindowStateProjectService">
     <state x="361" y="27" width="700" height="741" key="#PHP" timestamp="1605635733797">
@@ -173,11 +169,11 @@
       <screen x="66" y="27" width="1300" height="741" />
     </state>
     <state x="347" y="160" width="728" height="482" key="MultipleFileMergeDialog/66.27.1300.741@66.27.1300.741" timestamp="1605799980000" />
-    <state x="313" y="132" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1605799957312">
+    <state x="313" y="132" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1605857580278">
       <screen x="66" y="27" width="1300" height="741" />
     </state>
     <state x="306" y="132" width="800" height="528" key="Vcs.Push.Dialog.v2/57.27.1309.741@57.27.1309.741" timestamp="1597839364133" />
-    <state x="313" y="132" key="Vcs.Push.Dialog.v2/66.27.1300.741@66.27.1300.741" timestamp="1605799957312" />
+    <state x="313" y="132" width="800" height="535" key="Vcs.Push.Dialog.v2/66.27.1300.741@66.27.1300.741" timestamp="1605857580278" />
     <state x="374" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1597910306857">
       <screen x="57" y="27" width="1309" height="741" />
     </state>
