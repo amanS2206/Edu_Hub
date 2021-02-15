@@ -126,7 +126,7 @@ With the number of users increasing on our websites, our project could become a 
 
 CONCLUSION:
 Edu_hub   will be a dynamic website that will provide a one-way destination to users to help them excel their academics. The YouTube links and various videos will help them to visualize the concepts and it will be easy for them to focus on their subjects rather than searching the web and wasting their time.
-Our Project is a Full Stack domain project which uses both Frontend and Backend development.
+Our Project use Frontend and little part of Backend development. In the future we will extend the backend part .
 We are optimistic that our Project would be able to solve some real-life problems.
 
 
